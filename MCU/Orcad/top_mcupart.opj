@@ -1,0 +1,172 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\users\user\desktop\0829\pcb_design\library1.olb"
+        (Type "Schematic Library"))
+      (File "c:\users\d\desktop\pcb_design\library1.olb"
+        (Type "Schematic Library")))
+    (File ".\top_mcupart.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\D\DESKTOP\PCB_DESIGN\TOP_DESIGN\TOP_MCUPART\TOP_MCUPART.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\USERS\D\DESKTOP\PCB_DESIGN\TOP_DESIGN\TOP_MCUPART\TOP_MCUPART.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "TOP_MCUPART.asc")
+    (OTHER_Netlist_File2 "TOP_MCUPART.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\top_mcupart.bom"
+      (Type "Report"))
+    (File ".\top_mcupart.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (4digit7seg
+      (FullPartName "4digit7seg.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VOA617A
+      (FullPartName "VOA617A.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (5Pinheader
+      (FullPartName "5Pinheader.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (3WireConnector
+      (FullPartName "3WireConnector.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (2Pinheader
+      (FullPartName "2Pinheader.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (AVR_JTAG
+      (FullPartName "AVR_JTAG.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (15Pinheader
+      (FullPartName "15Pinheader.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (RS232
+      (FullPartName "RS232.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (RJ45
+      (FullPartName "RJ45.Normal")
+      (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON-SPDT/SM"
+      (FullPartName "SW PUSHBUTTON-SPDT/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (NTC
+      (FullPartName "NTC.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (24C02C
+      (FullPartName "24C02C.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\0829\PCB_DESIGN\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("DIODE ZENER"
+      (FullPartName "DIODE ZENER.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "user")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\top_mcupart.dsn")
+      (Path "Design Resources" ".\top_mcupart.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources" ".\top_mcupart.dsn" "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 320 631 -8 -31 0 200 0 334"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 987 52 615")
+        (Scroll "0 0")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "F:\HARMAN_PRJ\PCB_DESIGN\1Â÷\TOP_MCUPART.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1013 78 641")
+        (Scroll "-57 -6")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "F:\HARMAN_PRJ\PCB_DESIGN\1Â÷\TOP_MCUPART.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\D\Desktop\PCB_Design")
+  (ISPCBBASICLICENSE "false"))
