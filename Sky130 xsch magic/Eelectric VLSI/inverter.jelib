@@ -1,0 +1,25 @@
+# header information:
+Hinverter|9.07
+
+# Views:
+Vschematic|sch
+
+# Technologies:
+Tmocmos|mocmosAnalog()BT
+
+# Cell 1;1{sch}
+C1;1{sch}||schematic|1730420763687|1730423228018|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NTransistor|nmos@0||-33|29|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NWire_Pin|pin@0||-31|31||||
+NTransistor|pmos@0||-33|34|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+Awire|net@0|||900|pmos@0|s|-31|32|pin@0||-31|31
+X
+
+# Cell m_inv;1{sch}
+Cm_inv;1{sch}||schematic|1730423364202|1730423400346|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NTransistor|nmos@0||-1|9|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@0||-1|15|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+Awire|net@0|||900|pmos@0|s|1|13|nmos@0|d|1|11
+X

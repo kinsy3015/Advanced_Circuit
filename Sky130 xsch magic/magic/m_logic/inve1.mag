@@ -1,0 +1,60 @@
+magic
+tech sky130A
+timestamp 1731561282
+<< checkpaint >>
+rect -382 738 1170 1003
+rect -770 -708 1170 738
+rect -770 -973 782 -708
+<< nwell >>
+rect -132 -134 131 102
+<< pwell >>
+rect -132 -326 131 -134
+<< nmos >>
+rect -20 -233 17 -198
+<< pmos >>
+rect -20 -48 17 -13
+<< ndiff >>
+rect -52 -233 -20 -198
+rect 17 -233 52 -198
+<< pdiff >>
+rect -52 -48 -20 -13
+rect 17 -48 52 -13
+<< ndiffc >>
+rect -88 -234 -52 -198
+rect 52 -234 88 -198
+<< pdiffc >>
+rect -88 -49 -52 -13
+rect 52 -48 88 -12
+<< psubdiffcont >>
+rect -103 -306 -67 -268
+rect 60 -306 96 -268
+<< nsubdiffcont >>
+rect -108 16 -72 54
+rect 53 16 89 54
+<< poly >>
+rect -20 -13 17 -3
+rect -20 -118 17 -48
+rect -6 -150 17 -118
+rect -20 -198 17 -150
+rect -20 -250 17 -233
+<< polycont >>
+rect -42 -150 -6 -118
+<< locali >>
+rect -130 16 -108 54
+rect -72 16 53 54
+rect 89 16 130 54
+rect -88 -13 -59 16
+rect 88 -48 89 -12
+rect -89 -149 -42 -118
+rect 62 -198 89 -48
+rect 88 -234 89 -198
+rect -88 -268 -59 -234
+rect -124 -306 -103 -268
+rect -67 -306 60 -268
+rect 96 -306 136 -268
+<< labels >>
+rlabel locali -88 -134 -88 -134 7 in
+rlabel locali 0 -289 0 -289 5 gnd
+rlabel locali -2 33 -2 33 1 vcc
+rlabel locali 85 -103 85 -103 3 out
+<< end >>

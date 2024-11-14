@@ -1,0 +1,3 @@
+https://www.engineerwikis.com/wikis/installation-of-xschem // install xschem pdk skywater
+
+https://superuser.com/questions/1476086/error-cant-open-display-0 // display env
