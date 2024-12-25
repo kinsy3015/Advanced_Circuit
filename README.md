@@ -20,7 +20,7 @@
 # Harman - layout
 ![ONE CHIP](https://github.com/user-attachments/assets/f11b4164-08bc-4b2c-9eac-96f1196b5234)
 
-# Harman - QRC delay - 0.4021ps invertor delay
+# Harman - QRC delay - 0.4021ps inverter delay
 ![QRC 적용 Simul Scheme](https://github.com/user-attachments/assets/4adcd030-fcda-4618-b3c3-6e37262e7050)
 
 # Virtuoso - AMS
