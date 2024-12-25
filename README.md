@@ -17,6 +17,11 @@
 ![MOS_Comparator](https://github.com/user-attachments/assets/7ecf94c5-38c4-4805-91a3-8d70697849d2)
 ![MOS_Comparator_Simulation](https://github.com/user-attachments/assets/a22b9d2c-5c23-4b1e-b71f-89e37f427d69)
 
-# layout
-![inverter_layout_mag](https://github.com/user-attachments/assets/98bab2c5-2ded-4543-a53e-fb00c3aff913)
-![nand_layout_mag](https://github.com/user-attachments/assets/dae27ab2-2606-42cb-9a62-e2b4b9ce048b)
+# Harman - layout
+![ONE CHIP](https://github.com/user-attachments/assets/f11b4164-08bc-4b2c-9eac-96f1196b5234)
+
+# Harman - QRC delay - 0.4021ps invertor delay
+![QRC 적용 Simul Scheme](https://github.com/user-attachments/assets/4adcd030-fcda-4618-b3c3-6e37262e7050)
+
+# Virtuoso - AMS
+![Virtuoso AMS verilog-a](https://github.com/user-attachments/assets/e3a05e9d-5135-4f1b-acd5-20b63000095f)
