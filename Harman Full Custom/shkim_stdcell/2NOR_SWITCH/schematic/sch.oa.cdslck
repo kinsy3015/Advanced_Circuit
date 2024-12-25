@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      std003
+HostName                       IncheonChamber
+ProcessIdentifier              1909687
+ProcessCreationTime_UTC        1734661264
+ProcessCreationTime_Readable   Fri Dec 20 11:21:04 2024 KST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/std003/gpdk090_v4.6/shkim/2NOR_SWITCH/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Dec 20 14:06:24 2024 KST

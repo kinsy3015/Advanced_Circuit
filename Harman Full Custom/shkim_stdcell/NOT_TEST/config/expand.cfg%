@@ -1,0 +1,13 @@
+//Revision 1
+config NOT_TEST;
+design shkim.NOT_TEST:schematic;
+liblist gpdk090, shkim, analogLib;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+cell shkim.NOT binding :av_extracted;
+
+
+endconfig
