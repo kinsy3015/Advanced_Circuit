@@ -1,8 +1,10 @@
 # Advanced_Circuit
 
-# MCU Top Design
+# ATMega Top Design
 ![MCU_Top](https://github.com/user-attachments/assets/479c9afb-2728-47e7-88d6-7ecf159ad907)
 
+# STM Top Design
+![2](https://github.com/user-attachments/assets/55b00f10-9ada-4752-b290-498a7b118b65)
 
 
 # IR Data to ADC
