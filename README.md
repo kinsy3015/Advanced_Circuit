@@ -1,7 +1,8 @@
 # Advanced_Circuit
 
 # ATMega Top Design
-![MCU_Top](https://github.com/user-attachments/assets/479c9afb-2728-47e7-88d6-7ecf159ad907)
+![3](https://github.com/user-attachments/assets/7bb5fcde-8b2e-47b3-9ba3-ce3ff0a74bfb)
+
 
 # STM Top Design
 ![2](https://github.com/user-attachments/assets/55b00f10-9ada-4752-b290-498a7b118b65)
