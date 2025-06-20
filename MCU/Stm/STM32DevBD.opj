@@ -125,37 +125,16 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\D\Desktop\0829\Advanced_Circuit\MCU\Orcad\Stm\stm32devbd.dsn")
-      (Path "Design Resources"
-         "C:\Users\D\Desktop\0829\Advanced_Circuit\MCU\Orcad\Stm\stm32devbd.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "C:\Users\D\Desktop\0829\Advanced_Circuit\MCU\Orcad\Stm\stm32devbd.dsn"
-         "POWER")
-      (Path "Design Resources"
-         "C:\Users\D\Desktop\0829\Advanced_Circuit\MCU\Orcad\Stm\stm32devbd.dsn"
-         "stm32f303c8")
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn")
       (Path "Design Resources" "Library")
       (Select "Design Resources"
-         "C:\Users\D\Desktop\0829\Advanced_Circuit\MCU\Orcad\Stm\stm32devbd.dsn"
-         "SCHEMATIC1" "TOP"))
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 393"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1743 52 480")
-        (Scroll "-435 80")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\D\DESKTOP\0829\ADVANCED_CIRCUIT\MCU\ORCAD\STM\STM32DEVBD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "TOP")))
+        (Placement "44 2 3 -1 -1 -9 -38 0 200 0 393"))
+      (Tab 0)))
   (MPSSessionName "D")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_16.6\tools\capture\library\pspice\advanls"))
