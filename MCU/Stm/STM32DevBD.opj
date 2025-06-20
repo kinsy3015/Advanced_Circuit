@@ -9,8 +9,21 @@
     (File ".\stm32devbd.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\stm32devbd.bom"
+      (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
@@ -127,6 +140,7 @@
       (Path "Design Resources"
          "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn")
       (Path "Design Resources" "Library")
+      (Path "Outputs")
       (Select "Design Resources"
          "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn"))
     (HierarchyView)
