@@ -133,7 +133,7 @@
     (0
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "user")
+  (MPSSessionName "D")
   (GlobalState
     (FileView
       (Path "Design Resources")
@@ -141,7 +141,7 @@
       (Path "Design Resources" ".\top_mcupart.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\top_mcupart.dsn" "SCHEMATIC1" "PAGE2"))
+      (Select "Design Resources" ".\top_mcupart.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -151,21 +151,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 987 52 615")
-        (Scroll "0 0")
-        (Zoom "108")
+        (Placement "44 2 3 -1 -1 -8 -31 0 1156 0 39")
+        (Scroll "-179 0")
+        (Zoom "79")
         (Occurrence "/"))
-      (Path "F:\HARMAN_PRJ\PCB_DESIGN\1Â÷\TOP_MCUPART.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1013 78 641")
-        (Scroll "-57 -6")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path "F:\HARMAN_PRJ\PCB_DESIGN\1Â÷\TOP_MCUPART.DSN")
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE2")))
   (LastUsedLibraryBrowseDirectory "C:\Users\D\Desktop\PCB_Design")
