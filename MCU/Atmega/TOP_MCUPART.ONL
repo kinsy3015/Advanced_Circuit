@@ -1,11 +1,11 @@
 (PCB TOP_MCUPART
  (description
-  (timeStamp "2024 10 19 00 21 00")
+  (timeStamp "2025 06 22 16 02 42")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
-  (date "Saturday, October 19, 2024")
-  (document "C:\\USERS\\D\\DESKTOP\\PCB_DESIGN\\TOP_DESIGN\\TOP_MCUPART\\TOP_MCUPART.DSN")
+  (date "Monday, June 23, 2025")
+  (document "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\TOP_MCUPART.DSN")
   (revision "")
   (organization "")
   (address1 "")
@@ -134,25 +134,25 @@
   (component LED
    (place D2
     (property 
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" LEDC1608X60M)
      (timestamp 00011873)
      ("Source Package" LED)
      (Value LED)))
    (place D3
     (property 
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" LEDC1608X60M)
      (timestamp 00011883)
      ("Source Package" LED)
      (Value LED)))
    (place D4
     (property 
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" LEDC1608X60M)
      (timestamp 000118A7)
      ("Source Package" LED)
      (Value LED)))
    (place D5
     (property 
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" LEDC1608X60M)
      (timestamp 00011EF3)
      ("Source Package" LED)
      (Value LED))))
@@ -263,7 +263,7 @@
   (component NTC
    (place RT1
     (property 
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (timestamp 0001348C)
      ("Source Package" NTC)
      (Value NTC))))
@@ -318,7 +318,7 @@
    (place R25
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C63C)
      (DIST FLAT)
@@ -332,7 +332,7 @@
    (place R89
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00016EF5)
      (DIST FLAT)
@@ -346,7 +346,7 @@
    (place R26
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C654)
      (DIST FLAT)
@@ -360,7 +360,7 @@
    (place R27
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001777B)
      (DIST FLAT)
@@ -374,7 +374,7 @@
    (place R28
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013CE2)
      (DIST FLAT)
@@ -388,7 +388,7 @@
    (place R29
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013538)
      (DIST FLAT)
@@ -402,7 +402,7 @@
    (place R100
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F504)
      (DIST FLAT)
@@ -416,7 +416,7 @@
    (place R102
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F534)
      (DIST FLAT)
@@ -430,7 +430,7 @@
    (place R103
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F551)
      (DIST FLAT)
@@ -444,7 +444,7 @@
    (place R104
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F56E)
      (DIST FLAT)
@@ -458,7 +458,7 @@
    (place R105
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F58B)
      (DIST FLAT)
@@ -472,7 +472,7 @@
    (place R107
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001FAEC)
      (DIST FLAT)
@@ -486,7 +486,7 @@
    (place R108
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001FB06)
      (DIST FLAT)
@@ -500,7 +500,7 @@
    (place R109
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001FB34)
      (DIST FLAT)
@@ -514,7 +514,7 @@
    (place R90
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00016F0F)
      (DIST FLAT)
@@ -528,7 +528,7 @@
    (place R91
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00016F29)
      (DIST FLAT)
@@ -542,7 +542,7 @@
    (place R92
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00016F43)
      (DIST FLAT)
@@ -556,7 +556,7 @@
    (place R93
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00016F5D)
      (DIST FLAT)
@@ -570,7 +570,7 @@
    (place R61
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001192B)
      (DIST FLAT)
@@ -584,7 +584,7 @@
    (place R94
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000171B6)
      (DIST FLAT)
@@ -598,7 +598,7 @@
    (place R30
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000135AE)
      (DIST FLAT)
@@ -612,7 +612,7 @@
    (place R1
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001367A)
      (DIST FLAT)
@@ -626,7 +626,7 @@
    (place R62
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001193B)
      (DIST FLAT)
@@ -640,7 +640,7 @@
    (place R95
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001764C)
      (DIST FLAT)
@@ -654,7 +654,7 @@
    (place R2
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013698)
      (DIST FLAT)
@@ -668,7 +668,7 @@
    (place R31
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000135C6)
      (DIST FLAT)
@@ -682,7 +682,7 @@
    (place R63
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001194B)
      (DIST FLAT)
@@ -696,7 +696,7 @@
    (place R96
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C399)
      (DIST FLAT)
@@ -710,7 +710,7 @@
    (place R3
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000136BC)
      (DIST FLAT)
@@ -724,7 +724,7 @@
    (place R64
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011D7D)
      (DIST FLAT)
@@ -738,7 +738,7 @@
    (place R97
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F4C5)
      (DIST FLAT)
@@ -752,7 +752,7 @@
    (place R4
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000136DA)
      (DIST FLAT)
@@ -766,7 +766,7 @@
    (place R65
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011D9D)
      (DIST FLAT)
@@ -780,7 +780,7 @@
    (place R98
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F4D9)
      (DIST FLAT)
@@ -794,7 +794,7 @@
    (place R5
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000136EE)
      (DIST FLAT)
@@ -808,7 +808,7 @@
    (place R34
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000135F6)
      (DIST FLAT)
@@ -822,7 +822,7 @@
    (place R66
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011E49)
      (DIST FLAT)
@@ -836,7 +836,7 @@
    (place R99
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001F4F1)
      (DIST FLAT)
@@ -850,7 +850,7 @@
    (place R6
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001370C)
      (DIST FLAT)
@@ -864,7 +864,7 @@
    (place R68
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00012579)
      (DIST FLAT)
@@ -878,7 +878,7 @@
    (place R7
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001195B)
      (DIST FLAT)
@@ -892,7 +892,7 @@
    (place R8
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011A2F)
      (DIST FLAT)
@@ -906,7 +906,7 @@
    (place R37
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000104F7)
      (DIST FLAT)
@@ -920,7 +920,7 @@
    (place R9
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011BBF)
      (DIST FLAT)
@@ -934,7 +934,7 @@
    (place R38
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00010507)
      (DIST FLAT)
@@ -948,7 +948,7 @@
    (place R39
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00010517)
      (DIST FLAT)
@@ -962,7 +962,7 @@
    (place R110
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001FC9C)
      (DIST FLAT)
@@ -976,7 +976,7 @@
    (place R111
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001FCAC)
      (DIST FLAT)
@@ -990,7 +990,7 @@
    (place R112
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001FCBC)
      (DIST FLAT)
@@ -1004,7 +1004,7 @@
    (place R113
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000207C8)
      (DIST FLAT)
@@ -1018,7 +1018,7 @@
    (place R114
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0002145C)
      (DIST FLAT)
@@ -1032,7 +1032,7 @@
    (place R115
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000216EE)
      (DIST FLAT)
@@ -1046,7 +1046,7 @@
    (place R116
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000217C1)
      (DIST FLAT)
@@ -1060,7 +1060,7 @@
    (place R70
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000126C5)
      (DIST FLAT)
@@ -1074,7 +1074,7 @@
    (place R71
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00014C37)
      (DIST FLAT)
@@ -1088,7 +1088,7 @@
    (place R40
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00010527)
      (DIST FLAT)
@@ -1102,7 +1102,7 @@
    (place R73
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00012ACB)
      (DIST FLAT)
@@ -1116,7 +1116,7 @@
    (place R41
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00010537)
      (DIST FLAT)
@@ -1130,7 +1130,7 @@
    (place R10
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011C0D)
      (DIST FLAT)
@@ -1144,7 +1144,7 @@
    (place R42
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001054F)
      (DIST FLAT)
@@ -1158,7 +1158,7 @@
    (place R11
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011C1D)
      (DIST FLAT)
@@ -1172,7 +1172,7 @@
    (place R43
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001059D)
      (DIST FLAT)
@@ -1186,7 +1186,7 @@
    (place R76
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00012BEF)
      (DIST FLAT)
@@ -1200,7 +1200,7 @@
    (place R12
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011C2D)
      (DIST FLAT)
@@ -1214,7 +1214,7 @@
    (place R44
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000105AD)
      (DIST FLAT)
@@ -1228,7 +1228,7 @@
    (place R77
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013758)
      (DIST FLAT)
@@ -1242,7 +1242,7 @@
    (place R13
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00011C75)
      (DIST FLAT)
@@ -1256,7 +1256,7 @@
    (place R45
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000105BD)
      (DIST FLAT)
@@ -1270,7 +1270,7 @@
    (place R78
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013768)
      (DIST FLAT)
@@ -1284,7 +1284,7 @@
    (place R46
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000105CD)
      (DIST FLAT)
@@ -1298,7 +1298,7 @@
    (place R79
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013778)
      (DIST FLAT)
@@ -1312,7 +1312,7 @@
    (place R47
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000105DD)
      (DIST FLAT)
@@ -1326,7 +1326,7 @@
    (place R19
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00014DBF)
      (DIST FLAT)
@@ -1340,7 +1340,7 @@
    (place R80
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013788)
      (DIST FLAT)
@@ -1354,7 +1354,7 @@
    (place R81
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00013798)
      (DIST FLAT)
@@ -1368,7 +1368,7 @@
    (place R82
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000137A8)
      (DIST FLAT)
@@ -1382,7 +1382,7 @@
    (place R83
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000137B8)
      (DIST FLAT)
@@ -1396,7 +1396,7 @@
    (place R20
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00015156)
      (DIST FLAT)
@@ -1410,7 +1410,7 @@
    (place R84
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001388C)
      (DIST FLAT)
@@ -1424,7 +1424,7 @@
    (place R21
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001518E)
      (DIST FLAT)
@@ -1438,7 +1438,7 @@
    (place R85
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000138BE)
      (DIST FLAT)
@@ -1452,7 +1452,7 @@
    (place R22
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C604)
      (DIST FLAT)
@@ -1466,7 +1466,7 @@
    (place R86
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C664)
      (DIST FLAT)
@@ -1480,7 +1480,7 @@
    (place R23
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C614)
      (DIST FLAT)
@@ -1494,7 +1494,7 @@
    (place R24
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0001C62C)
      (DIST FLAT)
@@ -1508,7 +1508,7 @@
    (place R88
     (property 
      (VOLTAGE RVMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 00016EDB)
      (DIST FLAT)
@@ -1603,7 +1603,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000137F4)
      (DIST FLAT)
@@ -1620,7 +1620,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013804)
      (DIST FLAT)
@@ -1637,7 +1637,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013BC6)
      (DIST FLAT)
@@ -1654,7 +1654,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013C06)
      (DIST FLAT)
@@ -1671,7 +1671,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013D50)
      (DIST FLAT)
@@ -1688,7 +1688,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011AFB)
      (DIST FLAT)
@@ -1705,7 +1705,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011B23)
      (DIST FLAT)
@@ -1722,7 +1722,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011CE1)
      (DIST FLAT)
@@ -1739,7 +1739,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011CF1)
      (DIST FLAT)
@@ -1756,7 +1756,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011D35)
      (DIST FLAT)
@@ -1773,7 +1773,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011D45)
      (DIST FLAT)
@@ -1790,7 +1790,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011D8D)
      (DIST FLAT)
@@ -1807,7 +1807,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011DF1)
      (DIST FLAT)
@@ -1824,7 +1824,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011E9D)
      (DIST FLAT)
@@ -1841,7 +1841,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011ED7)
      (DIST FLAT)
@@ -1858,7 +1858,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00015883)
      (DIST FLAT)
@@ -1875,7 +1875,7 @@
      (VOLTAGE CMAX)
      (CURRENT CIMAX)
      (KNEE CBMAX)
-     ("PCB Footprint" "LED-2.54")
+     ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000179A9)
      (DIST FLAT)
@@ -5455,7 +5455,7 @@
   (net N136290
    (pins
      U14-7 R114-1))
-  (net N136885
+  (net N136950
    (pins
      R115-2))
   (net N136957

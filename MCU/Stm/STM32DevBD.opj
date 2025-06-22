@@ -151,28 +151,18 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 393"))
+        (Placement "44 0 1 -1 -1 -9 -38 0 200 0 393"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1052 52 400")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -9 -38 0 1104 0 197")
+        (Scroll "-99 99")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
       (Schematic "stm32f303c8")
-      (Page "stm32f303c8"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1104 78 369")
-        (Scroll "-4 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "TOP")))
+      (Page "stm32f303c8")))
   (MPSSessionName "D")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_16.6\tools\capture\library\pspice\advanls"))
