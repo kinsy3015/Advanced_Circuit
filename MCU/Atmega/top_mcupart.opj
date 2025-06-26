@@ -7,7 +7,7 @@
         (Type "Schematic Library"))
       (File "c:\users\d\desktop\pcb_design\library1.olb"
         (Type "Schematic Library")))
-    (File ".\top_mcupart.dsn"
+    (File ".\top_mcupart162.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
@@ -47,6 +47,51 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (SZMMSZ4689T1G
+      (FullPartName "SZMMSZ4689T1G.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\ORCAD_LIBRARY\SZMMSZ4689T1G\SZMMSZ4689T1G.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SZMMSZ4707T1G
+      (FullPartName "SZMMSZ4707T1G.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\ORCAD_LIBRARY\SZMMSZ4707T1G\SZMMSZ4707T1G.OLB")
+      (DeviceIndex "0"))
+    (SRD-05VDC-SL-C
+      (FullPartName "SRD-05VDC-SL-C.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\ORCAD_LIBRARY\SRD-05VDC-SL-C\SRD-05VDC-SL-C.OLB")
+      (DeviceIndex "0"))
+    (LED-1
+      (FullPartName "LED-1.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\ORCAD_LIBRARY\LED-SMD-RED-DIFFUSED(0603)\LED-SMD-RED-DIFFUSED0603.OLB")
+      (DeviceIndex "0"))
+    (1N4004G
+      (FullPartName "1N4004G.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\PADS_DECAL_CUSTOM\1N4004G (1)\1N4004G.OLB")
+      (DeviceIndex "0"))
+    (DIODE13
+      (FullPartName "DIODE13.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED56/TO
+      (FullPartName "LED56/TO.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (4digit7seg
       (FullPartName "4digit7seg.Normal")
       (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
@@ -54,11 +99,6 @@
     (VOA617A
       (FullPartName "VOA617A.Normal")
       (LibraryName "C:\USERS\D\DESKTOP\PCB_DESIGN\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (5Pinheader
       (FullPartName "5Pinheader.Normal")
@@ -92,9 +132,6 @@
       (FullPartName "SW PUSHBUTTON-SPDT/SM.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (PORTRIGHT-R
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -109,54 +146,62 @@
       (DeviceIndex "0"))
     (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (NTC
-      (FullPartName "NTC.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (24C02C
-      (FullPartName "24C02C.Normal")
-      (LibraryName "C:\USERS\USER\DESKTOP\0829\PCB_DESIGN\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    ("DIODE ZENER"
-      (FullPartName "DIODE ZENER.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "D")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\top_mcupart.dsn")
-      (Path "Design Resources" ".\top_mcupart.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\top_mcupart162.dsn")
+      (Path "Design Resources" ".\top_mcupart162.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\top_mcupart.dsn" "SCHEMATIC1"))
+      (Select "Design Resources" ".\top_mcupart162.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 320 631 -9 -38 0 200 0 334"))
+        (Placement "44 2 3 320 631 -8 -31 0 200 0 334"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 0 1156 0 47")
-        (Scroll "-201 0")
-        (Zoom "79")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1200 78 250")
+        (Scroll "0 0")
+        (Zoom "240")
         (Occurrence "/"))
-      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART.DSN")
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART162.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE2")))
-  (LastUsedLibraryBrowseDirectory "C:\Users\D\Desktop\PCB_Design")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1174 104 440")
+        (Scroll "1005 814")
+        (Zoom "240")
+        (Occurrence "/"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART162.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1200 130 466")
+        (Scroll "0 96")
+        (Zoom "120")
+        (Occurrence "/"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART162.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 778 0 336")
+        (Scroll "88 196")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART162.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\D\Advanced_Circuit\MCU\Atmega\Orcad_Library\SZMMSZ4689T1G")
   (ISPCBBASICLICENSE "false"))

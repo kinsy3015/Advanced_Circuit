@@ -1,0 +1,337 @@
+
+(EDIF
+  (rename SRD_45_05VDC_45_SL_45_C "SRD-05VDC-SL-C")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 11 08 03 07 09)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename SRD_45_05VDC_45_SL_45_C "SRD-05VDC-SL-C")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename SRD_45_05VDC_45_SL_45_C "SRD-05VDC-SL-C")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "K")
+          (property (rename VALUE "Value") (string "SRD-05VDC-SL-C"))
+          (port
+            (rename A1 "A1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "A1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename A2 "A2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "A2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename COM "COM")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "COM")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename NC "NC")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "NC")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename NO "NO")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "NO")
+            (property
+              (rename ORDER "Order")
+              (integer 4)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -30000) (pt 30000 20000)))
+            (portImplementation
+              (name A1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 10000)
+                    (pt -20000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name A2)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 -20000)
+                    (pt -20000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name NC)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 -20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 -20000)
+                    (pt 20000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name COM)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name NO)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 10000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 10000)
+                    (pt 20000 10000)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 10000) (pt -10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 10000) (pt -10000 1000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 1000) (pt -14000 1000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -14000 1000) (pt -14000 -11000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -14000 -11000) (pt -10000 -11000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -11000) (pt -6000 -11000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -6000 -11000) (pt -6000 1000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -6000 1000) (pt -10000 1000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -11000) (pt -10000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -20000) (pt -20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -10000) (pt 10000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -20000) (pt 20000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 10000) (pt 10000 10000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 10000) (pt 10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 14000 -5000) (pt 16999 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 16999 -5000) (pt 16999 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 14000 -5000) (pt 9000 -9000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 -30000) (pt -20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 20000) (pt 20000 20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 20000) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt 20000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 -30000) (pt -20000 -30000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 16999 0) (pt 20000 0)))
+            )
+            (figure PARTBODY
+              (circle (pt 9000 0) (pt 11000 0))
+            )
+            (figure PARTBODY
+              (circle (pt 9000 -10000) (pt 11000 -10000))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20003 23003))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20011 -40023))
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "RELAY_SRD-05VDC-SL-C"))
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Songle Relay"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Not in stock"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "NON STANDARD-5 Songle Relay"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "SRD-05VDC-SL-C"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+          )
+        )
+      )
+    )
+  )
+)
