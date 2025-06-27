@@ -1,0 +1,52 @@
+*PADS-LIBRARY-SCH-DECALS-V9*
+
+
+AMS1117-33 0 0 69 1 69 1 2 4 0 3 0
+"Default Font"
+"Default Font"
+-401 220 0 0 100 10 "Default Font"
+REF-DES
+-400 -320 0 0 100 10 "Default Font"
+PART-TYPE
+OPEN 2 10 26 -1
+-400 200
+400 200
+OPEN 2 10 26 -1
+400 200
+400 -200
+OPEN 2 10 26 -1
+400 -200
+-400 -200
+OPEN 2 10 26 -1
+-400 -200
+-400 200
+T600 -100 0 0 -28 8 0 1 -239 0 0 18 PIN_R180_U_L200
+P0 0 0 18 50 20 0 0 128
+T-600 100 0 0 -28 8 0 0 239 0 0 16 PIN_R0_U_L200
+P0 0 0 16 50 20 0 0 128
+T600 100 0 0 -28 8 0 1 -239 0 0 18 PIN_R180_U_L200
+P0 0 0 18 50 20 0 0 128
+
+PIN_R180_U_L200 0 0 0 0 0 0 2 1 0 0 0
+"Default Font"
+"Default Font"
+0 0 0 4 50 10 "Default Font"
+REF-DES
+0 0 0 4 50 10 "Default Font"
+PART-TYPE
+OPEN 2 6.5 26 -1
+0 0
+-200 0
+
+PIN_R0_U_L200 0 0 0 0 0 0 2 1 0 0 0
+"Default Font"
+"Default Font"
+0 0 0 4 50 10 "Default Font"
+REF-DES
+0 0 0 4 50 10 "Default Font"
+PART-TYPE
+OPEN 2 6.5 26 -1
+0 0
+200 0
+
+*END*

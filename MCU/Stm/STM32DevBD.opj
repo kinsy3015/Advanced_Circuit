@@ -51,6 +51,10 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    ("CONN PCB 2"
+      (FullPartName "CONN PCB 2.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     ("CONN TRBLK 2"
       (FullPartName "CONN TRBLK 2.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -147,10 +151,6 @@
     (AMS1117
       (FullPartName "AMS1117.Normal")
       (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
-      (DeviceIndex "0"))
-    ("TEST POINT"
-      (FullPartName "TEST POINT.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -168,13 +168,13 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "stm32f303c8"
-         "COM"))
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "SCHEMATIC1"
+         "TOP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 393"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 393"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -189,8 +189,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 990 104 523")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 104 990 104 523")
+        (Scroll "0 160")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -199,9 +199,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 0 944 0 47")
-        (Scroll "124 58")
-        (Zoom "208")
+        (Placement "44 0 1 -1 -1 -8 -31 0 944 0 47")
+        (Scroll "0 0")
+        (Zoom "120")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "stm32f303c8")
@@ -210,7 +210,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1132 0 256")
-        (Scroll "-57 0")
+        (Scroll "-57 290")
         (Zoom "100")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -249,7 +249,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1132 52 374")
-        (Scroll "-31 0")
+        (Scroll "-31 150")
         (Zoom "100")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
