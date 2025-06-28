@@ -160,13 +160,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 320 631 -8 -31 0 200 0 334"))
+        (Placement "44 0 1 320 631 -8 -31 0 200 0 334"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1200 78 250")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1200 78 250")
+        (Scroll "0 120")
         (Zoom "240")
         (Occurrence "/"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART162.DSN")
@@ -176,7 +176,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1174 104 440")
-        (Scroll "1005 814")
+        (Scroll "478 814")
         (Zoom "240")
         (Occurrence "/"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\ATMEGA\TOP_MCUPART162.DSN")

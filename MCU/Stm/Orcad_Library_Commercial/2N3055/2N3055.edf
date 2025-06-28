@@ -1,0 +1,264 @@
+
+(EDIF
+  (rename &2N3055 "2N3055")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 05 20 17 11 35)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename &2N3055 "2N3055")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename NPN "NPN")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename VALUE "Value") (string "NPN"))
+          (port
+            (rename B "B")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "B")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename C "C")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "C")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename C_1 "C_1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "C/")
+            (property
+              (rename ORDER "Order")
+              (integer 2)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename E "E")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "E")
+            (property
+              (rename ORDER "Order")
+              (integer 3)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -10000 -30000) (pt 10000 20000)))
+            (portImplementation
+              (name B)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -10000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -10000 0)
+                    (pt 0 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name E)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 -30000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 -30000)
+                    (pt 10000 -20000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name C)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 20000)
+                    (pt 10000 10000)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name C_1)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 10000 20000)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 10000 20000)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 10000) (pt 2000 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7000 -16000) (pt 10000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -20000) (pt 5000 -20000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 -20000) (pt 7000 -16000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 6062 -18031) (pt 1212 -15606)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 6000 -19500) (pt 9000 -19500)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 9000 -19500) (pt 7000 -16999)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7000 -16999) (pt 6000 -19000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 6000 -19000) (pt 7500 -19000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 -19000) (pt 7000 -18000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40000 30000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -40000 20000))
+              )
+            )
+            (figure PARTBODY
+              (rectangle (pt -1000 -10000) (pt 2000 10000))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "TO3"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/2N3055/STMicroelectronics/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Bipolar (BJT) Transistor NPN 60 V 15 A - 115 W Chassis Mount TO-3
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "TO-3 STMicroelectronics"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "STMicroelectronics"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "2N3055"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/2N3055/STMicroelectronics/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

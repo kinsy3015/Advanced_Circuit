@@ -1,6 +1,6 @@
 (PCB STM32DEVBD162
  (description
-  (timeStamp "2025 06 27 17 56 47")
+  (timeStamp "2025 06 28 11 33 27")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
@@ -26,6 +26,13 @@
      (Implementation POT)
      (SET 0.5)
      (Value 5K))))
+  (component TJA1051_0
+   (place U17
+    (property 
+     ("PCB Footprint" "SOT96-1")
+     (timestamp 000018CB)
+     ("Source Package" TJA1051_0)
+     (Value TJA1051))))
   (component LM2596
    (place U2
     (property 
@@ -52,6 +59,14 @@
      ("Source Package" FUSE)
      (Implementation FUSE)
      (Value FUSE))))
+  (component 10X2MT
+   (place J5
+    (property 
+     (OriginalSymbolOrigin "(-50000,10000)")
+     ("PCB Footprint" 61202021621)
+     (timestamp 0000A7E7)
+     ("Source Package" 10X2MT)
+     (Value 10X2MT))))
   (component CD4049
    (place U20
     (property 
@@ -158,42 +173,11 @@
      (timestamp 0000036E)
      ("Source Package" AMS1117)
      (Value AMS1117))))
-  (component LED
-   (place D10
-    (property 
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 000037CB)
-     ("Source Package" LED)
-     (Value LED)))
-   (place D11
-    (property 
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 00003845)
-     ("Source Package" LED)
-     (Value LED)))
-   (place D12
-    (property 
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 000038C2)
-     ("Source Package" LED)
-     (Value LED)))
-   (place D6
-    (property 
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 00001857)
-     ("Source Package" LED)
-     (Value LED)))
-   (place D9
-    (property 
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 00003003)
-     ("Source Package" LED)
-     (Value LED))))
   (component L298
-   (place U7
+   (place U21
     (property 
      ("PCB Footprint" "SOIC127P1420X360-20N")
-     (timestamp 00004771)
+     (timestamp 0000BB91)
      ("Source Package" L298)
      (Value L298))))
   (component L
@@ -282,104 +266,204 @@
      (timestamp 00001802)
      ("Source Package" NE555)
      (Value NE555))))
-  (component TJA1051
-   (place U17
+  (component "LED-1"
+   (place D20
     (property 
-     ("PCB Footprint" "SOT96-1")
-     (timestamp 000018CB)
-     ("Source Package" TJA1051)
-     (Value TJA1051))))
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
+     (MP "19-217/R6C-AL1M2VY/3T")
+     (OriginalSymbolOrigin "(-5000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 000093FF)
+     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+     ("Source Package" "LED-1")
+     (MF "Everlight Electronics")
+     (Package "0603 Everlight Electronics")
+     (Value "LED-1")
+     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
+   (place D21
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
+     (MP "19-217/R6C-AL1M2VY/3T")
+     (OriginalSymbolOrigin "(-5000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 00009527)
+     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+     ("Source Package" "LED-1")
+     (MF "Everlight Electronics")
+     (Package "0603 Everlight Electronics")
+     (Value "LED-1")
+     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
+   (place D22
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
+     (MP "19-217/R6C-AL1M2VY/3T")
+     (OriginalSymbolOrigin "(-5000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 00009543)
+     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+     ("Source Package" "LED-1")
+     (MF "Everlight Electronics")
+     (Package "0603 Everlight Electronics")
+     (Value "LED-1")
+     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
+   (place D23
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
+     (MP "19-217/R6C-AL1M2VY/3T")
+     (OriginalSymbolOrigin "(-5000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 0000955F)
+     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+     ("Source Package" "LED-1")
+     (MF "Everlight Electronics")
+     (Package "0603 Everlight Electronics")
+     (Value "LED-1")
+     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
+   (place D9
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
+     (MP "19-217/R6C-AL1M2VY/3T")
+     (OriginalSymbolOrigin "(-5000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 000048BC)
+     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+     ("Source Package" "LED-1")
+     (MF "Everlight Electronics")
+     (Package "0603 Everlight Electronics")
+     (Value "LED-1")
+     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  "))))
+  (component 1N4001G
+   (place D10
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
+     (MP 1N4001G)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 000050AF)
+     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
+     ("Source Package" 1N4001G)
+     (MF "Taiwan Semiconductor")
+     (Package "DO-41-2 Taiwan Semiconductor")
+     (Value 1N4001G)
+     (Description "                                                    1A, 50V, Standard Rectifier                                            ")))
+   (place D11
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
+     (MP 1N4001G)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 00005103)
+     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
+     ("Source Package" 1N4001G)
+     (MF "Taiwan Semiconductor")
+     (Package "DO-41-2 Taiwan Semiconductor")
+     (Value 1N4001G)
+     (Description "                                                    1A, 50V, Standard Rectifier                                            ")))
+   (place D12
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
+     (MP 1N4001G)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 00005161)
+     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
+     ("Source Package" 1N4001G)
+     (MF "Taiwan Semiconductor")
+     (Package "DO-41-2 Taiwan Semiconductor")
+     (Value 1N4001G)
+     (Description "                                                    1A, 50V, Standard Rectifier                                            ")))
+   (place D13
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
+     (MP 1N4001G)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 000051D1)
+     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
+     ("Source Package" 1N4001G)
+     (MF "Taiwan Semiconductor")
+     (Package "DO-41-2 Taiwan Semiconductor")
+     (Value 1N4001G)
+     (Description "                                                    1A, 50V, Standard Rectifier                                            "))))
   (component 1N4148
-   (place D2
+   (place D25
     (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+     (MP 1N4148)
+     (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 00000A03)
-     (COMPONENT 1N4148)
+     (timestamp 0000BD29)
+     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value 1N4001)))
-   (place D3
+     (MF onsemi)
+     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Value 1N4148)
+     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
+   (place D26
     (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+     (MP 1N4148)
+     (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 00000A13)
-     (COMPONENT 1N4148)
+     (timestamp 0000BE64)
+     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value 1N4001)))
-   (place D16
+     (MF onsemi)
+     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Value 1N4148)
+     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
+   (place D27
     (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+     (MP 1N4148)
+     (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 0000451F)
-     (COMPONENT 1N4148)
+     (timestamp 0000BEA0)
+     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value D1N4148)))
-   (place D4
+     (MF onsemi)
+     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Value 1N4148)
+     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
+   (place D28
     (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+     (MP 1N4148)
+     (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 000013E0)
-     (COMPONENT 1N4148)
+     (timestamp 0000BEE1)
+     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value 1N4001)))
-   (place D17
+     (MF onsemi)
+     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Value 1N4148)
+     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
+   (place D14
     (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+     (MP 1N4148)
+     (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 0000452F)
-     (COMPONENT 1N4148)
+     (timestamp 00005208)
+     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value D1N4148)))
-   (place D5
+     (MF onsemi)
+     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Value 1N4148)
+     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
+   (place D15
     (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+     (MP 1N4148)
+     (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 000013FA)
-     (COMPONENT 1N4148)
+     (timestamp 00005270)
+     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value 1N4001)))
-   (place D18
-    (property 
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 0000454F)
-     (COMPONENT 1N4148)
-     ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value D1N4148)))
-   (place D19
-    (property 
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 0000453F)
-     (COMPONENT 1N4148)
-     ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value D1N4148)))
-   (place D7
-    (property 
-     ("PCB Footprint" "DO35-10")
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 0000188C)
-     (COMPONENT 1N4148)
-     ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value D1N4148)))
-   (place D8
-    (property 
-     ("PCB Footprint" "DO35-10")
-     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-     (timestamp 00001B54)
-     (COMPONENT 1N4148)
-     ("Source Package" 1N4148)
-     (Implementation D1N4148_1)
-     (Value D1N4148))))
+     (MF onsemi)
+     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Value 1N4148)
+     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           "))))
   (component TRANSFORMER
    (place T1
     (property 
@@ -393,13 +477,6 @@
      (timestamp 000011D8)
      ("Source Package" TRANSFORMER)
      (Value "30 - 0 - 30"))))
-  (component "CON MC10"
-   (place J2
-    (property 
-     ("PCB Footprint" "CONN_SD-42375-001_M240_10_MOL")
-     (timestamp 000001BD)
-     ("Source Package" "CON MC10")
-     (Value "CON MC10"))))
   (component R
    (place R25
     (property 
@@ -411,10 +488,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R26
     (property 
      (VOLTAGE RVMAX)
@@ -425,10 +502,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R27
     (property 
      (VOLTAGE RVMAX)
@@ -439,10 +516,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R28
     (property 
      (VOLTAGE RVMAX)
@@ -453,10 +530,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R29
     (property 
      (VOLTAGE RVMAX)
@@ -467,10 +544,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R30
     (property 
      (VOLTAGE RVMAX)
@@ -481,10 +558,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R1
     (property 
      (VOLTAGE RVMAX)
@@ -495,10 +572,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R31
     (property 
      (VOLTAGE RVMAX)
@@ -509,10 +586,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R2
     (property 
      (VOLTAGE RVMAX)
@@ -523,10 +600,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R32
     (property 
      (VOLTAGE RVMAX)
@@ -537,10 +614,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R3
     (property 
      (VOLTAGE RVMAX)
@@ -551,10 +628,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R33
     (property 
      (VOLTAGE RVMAX)
@@ -565,10 +642,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R4
     (property 
      (VOLTAGE RVMAX)
@@ -579,10 +656,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R34
     (property 
      (VOLTAGE RVMAX)
@@ -593,10 +670,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R5
     (property 
      (VOLTAGE RVMAX)
@@ -607,10 +684,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R35
     (property 
      (VOLTAGE RVMAX)
@@ -621,10 +698,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R6
     (property 
      (VOLTAGE RVMAX)
@@ -635,10 +712,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R36
     (property 
      (VOLTAGE RVMAX)
@@ -649,10 +726,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R7
     (property 
      (VOLTAGE RVMAX)
@@ -663,10 +740,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 20k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R37
     (property 
      (VOLTAGE RVMAX)
@@ -677,10 +754,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R8
     (property 
      (VOLTAGE RVMAX)
@@ -691,10 +768,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 20k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R38
     (property 
      (VOLTAGE RVMAX)
@@ -705,10 +782,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R9
     (property 
      (VOLTAGE RVMAX)
@@ -719,10 +796,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R39
     (property 
      (VOLTAGE RVMAX)
@@ -733,10 +810,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R40
     (property 
      (VOLTAGE RVMAX)
@@ -747,10 +824,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R41
     (property 
      (VOLTAGE RVMAX)
@@ -761,10 +838,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R42
     (property 
      (VOLTAGE RVMAX)
@@ -775,10 +852,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R10
     (property 
      (VOLTAGE RVMAX)
@@ -789,10 +866,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R11
     (property 
      (VOLTAGE RVMAX)
@@ -803,10 +880,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R12
     (property 
      (VOLTAGE RVMAX)
@@ -817,24 +894,24 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R44
     (property 
      (VOLTAGE RVMAX)
      ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
-     (timestamp 0000183E)
+     (timestamp 00004A25)
      (DIST FLAT)
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R13
     (property 
      (VOLTAGE RVMAX)
@@ -845,10 +922,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R45
     (property 
      (VOLTAGE RVMAX)
@@ -859,10 +936,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R14
     (property 
      (VOLTAGE RVMAX)
@@ -873,10 +950,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R46
     (property 
      (VOLTAGE RVMAX)
@@ -887,10 +964,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R15
     (property 
      (VOLTAGE RVMAX)
@@ -901,10 +978,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R47
     (property 
      (VOLTAGE RVMAX)
@@ -915,10 +992,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R16
     (property 
      (VOLTAGE RVMAX)
@@ -929,10 +1006,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R48
     (property 
      (VOLTAGE RVMAX)
@@ -943,10 +1020,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R17
     (property 
      (VOLTAGE RVMAX)
@@ -957,10 +1034,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R49
     (property 
      (VOLTAGE RVMAX)
@@ -971,10 +1048,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R18
     (property 
      (VOLTAGE RVMAX)
@@ -985,10 +1062,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R19
     (property 
      (VOLTAGE RVMAX)
@@ -999,10 +1076,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R50
     (property 
      (VOLTAGE RVMAX)
@@ -1013,10 +1090,38 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R51
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" RESC1608X50AL)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
+     (timestamp 0000AAF0)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R52
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" RESC1608X50AL)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
+     (timestamp 0000AB00)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R21
     (property 
      (VOLTAGE RVMAX)
@@ -1027,24 +1132,24 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R22
     (property 
      (VOLTAGE RVMAX)
      ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
-     (timestamp 000011CF)
+     (timestamp 0000A5DD)
      (DIST FLAT)
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R23
     (property 
      (VOLTAGE RVMAX)
@@ -1055,10 +1160,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R24
     (property 
      (VOLTAGE RVMAX)
@@ -1069,14 +1174,14 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX))))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0))))
   (component "SW PUSHBUTTON"
    (place SW2
     (property 
-     ("PCB Footprint" "SW_TS04-66-55-BK-160-SMT")
+     ("PCB Footprint" "SW_TS09-63-25-WT-260-SMT-TR")
      (timestamp 00001FCD)
      ("Source Package" "SW PUSHBUTTON")
      (Value "SW PUSHBUTTON"))))
@@ -1105,8 +1210,8 @@
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0000009B)
@@ -1114,16 +1219,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 0.47uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C22
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000001B2)
@@ -1131,16 +1236,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 680uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C23
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0000026F)
@@ -1148,8 +1253,8 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 220uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C24
     (property 
@@ -1168,8 +1273,8 @@
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00000900)
@@ -1177,16 +1282,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C2
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00000910)
@@ -1194,16 +1299,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C3
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00000920)
@@ -1211,16 +1316,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C4
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0000093A)
@@ -1228,8 +1333,8 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C5
     (property 
@@ -1311,11 +1416,44 @@
      ("Source Package" C)
      (Value 220uF)))))
  (library
+  (image "LED-1"
+   (property 
+    (sourcelib "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\LED-SMD-RED-DIFFUSED(0603)\\LED-SMD-RED-DIFFUSED0603.OLB")
+    (OriginalSymbolOrigin "(-5000,20000)")
+    (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+    (MP "19-217/R6C-AL1M2VY/3T")
+    (MF "Everlight Electronics")
+    (Package "0603 Everlight Electronics")
+    (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
+    ("PCB Footprint" "LED-0603"))
+   (pin 999 +
+    (property 
+     (pinname +)
+     (pintype 4)
+     (Name +)
+     (Number +)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N12297)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 "-"
+    (property 
+     (pinname "-")
+     (pintype 4)
+     (Name "-")
+     (Number "-")
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
   (image 2N3055
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\PWRBJT.OLB)
-    (COMPONENT 2N3055)
-    (PSpiceTemplate "Q^@REFDES %c %b %e @MODEL"))
+    (PSpiceTemplate "Q^@REFDES %c %b %e @MODEL")
+    (COMPONENT 2N3055))
    (pin 999 1
     (property 
      (pinname b)
@@ -1352,14 +1490,14 @@
   (image R
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (DIST FLAT)
-    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
-    (VOLTAGE RVMAX)
-    (SLOPE RSMAX)
-    (MAX_TEMP RTMAX)
-    (POWER RMAX)
+    (TC2 0)
     (TC1 0)
-    (TC2 0))
+    (POWER RMAX)
+    (MAX_TEMP RTMAX)
+    (SLOPE RSMAX)
+    (VOLTAGE RVMAX)
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+    (DIST FLAT))
    (pin 999 2
     (property 
      (pinname 2)
@@ -1993,17 +2131,17 @@
      ("Net Name" GND)
      (Order 47)
      ("Is No Connect" False))))
-  (image TJA1051
+  (image TJA1051_0
    (property 
-    (sourcelib C:\\USERS\\D\\DESKTOP\\0829\\ADVANCED_CIRCUIT\\MCU\\ORCAD\\STM\\DEVBD.OLB))
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
    (pin 999 1
     (property 
      (pinname TXD)
-     (pintype 4)
+     (pintype 0)
      (Name TXD)
      (Number 1)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Input)
      ("Net Name" CAN_TX)
      (Order 0)
      ("Is No Connect" False)))
@@ -2032,11 +2170,11 @@
    (pin 999 4
     (property 
      (pinname RXD)
-     (pintype 4)
+     (pintype 2)
      (Name RXD)
      (Number 4)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Output)
      ("Net Name" CAN_RX)
      (Order 3)
      ("Is No Connect" False)))
@@ -2053,41 +2191,74 @@
    (pin 999 6
     (property 
      (pinname CANL)
-     (pintype 4)
+     (pintype 1)
      (Name CANL)
      (Number 6)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Bidirectional)
      ("Net Name" CANL)
      (Order 5)
      ("Is No Connect" False)))
    (pin 999 7
     (property 
      (pinname CANH)
-     (pintype 4)
+     (pintype 1)
      (Name CANH)
      (Number 7)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Bidirectional)
      ("Net Name" CANH)
      (Order 6)
      ("Is No Connect" False)))
    (pin 999 8
     (property 
      (pinname S)
-     (pintype 4)
+     (pintype 0)
      (Name S)
      (Number 8)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Input)
      ("Net Name" CAN_S)
      (Order 7)
+     ("Is No Connect" False))))
+  (image 1N4148
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4148_2\\1N4148.OLB)
+    (OriginalSymbolOrigin "(-10000,10000)")
+    (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
+    (MP 1N4148)
+    (MF onsemi)
+    (Package "AXIAL LEAD-2 ON Semiconductor")
+    (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
+    ("PCB Footprint" DIOAD753W49L380D172B))
+   (pin 999 A
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number A)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Motor_Drive1)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 K
+    (property 
+     (pinname K)
+     (pintype 4)
+     (Name K)
+     (Number K)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
+     (Order 1)
      ("Is No Connect" False))))
   (image FUSE
    (property 
     (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANL_MISC.OLB)
-    (CURRENT 1)
-    (PSpiceTemplate "X^@REFDES %1 %2 @MODEL PARAMS:\\n+ CURRENT=@CURRENT"))
+    (PSpiceTemplate "X^@REFDES %1 %2 @MODEL PARAMS:\\n+ CURRENT=@CURRENT")
+    (CURRENT 1))
    (pin 999 1
     (property 
      (pinname 1)
@@ -2138,17 +2309,17 @@
   (image C
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (VC2 0)
-    (VC1 0)
-    (MAX_TEMP CTMAX)
-    (SLOPE CSMAX)
-    (KNEE CBMAX)
-    (CURRENT CIMAX)
-    (VOLTAGE CMAX)
-    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
-    (DIST FLAT)
+    (TC2 0)
     (TC1 0)
-    (TC2 0))
+    (DIST FLAT)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+    (VOLTAGE CMAX)
+    (CURRENT CIMAX)
+    (KNEE CBMAX)
+    (SLOPE CSMAX)
+    (MAX_TEMP CTMAX)
+    (VC1 0)
+    (VC2 0))
    (pin 999 1
     (property 
      (pinname 1)
@@ -2649,49 +2820,9 @@
      (Type Passive)
      (Order 15)
      ("Is No Connect" True))))
-  (image LM7805C
-   (property 
-    (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\OPAMP.OLB)
-    (PSpiceTemplate "X^@REFDES %IN %OUT %GND @MODEL"))
-   (pin 999 1
-    (property 
-     (pinname IN)
-     (pintype 0)
-     (Name IN)
-     (Number 1)
-     ("Swap Id" "-1")
-     (Type Input)
-     ("Net Name" N02650)
-     (Order 0)
-     ("Is No Connect" False)
-     (FLOAT Error)))
-   (pin 999 2
-    (property 
-     (pinname OUT)
-     (pintype 2)
-     (Name OUT)
-     (Number 2)
-     ("Swap Id" "-1")
-     (Type Output)
-     ("Net Name" +5V)
-     (Order 1)
-     ("Is No Connect" False)
-     (FLOAT Error)))
-   (pin 999 3
-    (property 
-     (pinname GND)
-     (pintype 7)
-     (Name GND)
-     (Number 3)
-     ("Swap Id" "-1")
-     (Type Power)
-     ("Net Name" GND_SIGNAL)
-     (Order 2)
-     ("Is No Connect" False)
-     (FLOAT Error))))
   (image L298
    (property 
-    (sourcelib C:\\USERS\\D\\DESKTOP\\STM\\DEVBD.OLB))
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\DEVBD.OLB))
    (pin 999 1
     (property 
      (pinname "CUR SEN A")
@@ -2706,22 +2837,22 @@
    (pin 999 2
     (property 
      (pinname OUT1)
-     (pintype 4)
+     (pintype 2)
      (Name OUT1)
      (Number 2)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Output)
      ("Net Name" L298_Out1)
      (Order 1)
      ("Is No Connect" False)))
    (pin 999 3
     (property 
      (pinname OUT2)
-     (pintype 4)
+     (pintype 2)
      (Name OUT2)
      (Number 3)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Output)
      ("Net Name" L298_Out2)
      (Order 2)
      ("Is No Connect" False)))
@@ -2816,33 +2947,33 @@
    (pin 999 12
     (property 
      (pinname IN4)
-     (pintype 4)
+     (pintype 0)
      (Name IN4)
      (Number 12)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Input)
      ("Net Name" L298_IN4)
      (Order 11)
      ("Is No Connect" False)))
    (pin 999 13
     (property 
      (pinname OUT3)
-     (pintype 4)
+     (pintype 2)
      (Name OUT3)
      (Number 13)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Output)
      ("Net Name" L298_Out4)
      (Order 12)
      ("Is No Connect" False)))
    (pin 999 14
     (property 
      (pinname OUT4)
-     (pintype 4)
+     (pintype 2)
      (Name OUT4)
      (Number 14)
      ("Swap Id" "-1")
-     (Type Passive)
+     (Type Output)
      ("Net Name" L298_Out3)
      (Order 13)
      ("Is No Connect" False)))
@@ -2856,6 +2987,46 @@
      (Type Passive)
      (Order 14)
      ("Is No Connect" True))))
+  (image LM7805C
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\OPAMP.OLB)
+    (PSpiceTemplate "X^@REFDES %IN %OUT %GND @MODEL"))
+   (pin 999 1
+    (property 
+     (pinname IN)
+     (pintype 0)
+     (Name IN)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N02650)
+     (Order 0)
+     ("Is No Connect" False)
+     (FLOAT Error)))
+   (pin 999 2
+    (property 
+     (pinname OUT)
+     (pintype 2)
+     (Name OUT)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" +5V)
+     (Order 1)
+     ("Is No Connect" False)
+     (FLOAT Error)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND_SIGNAL)
+     (Order 2)
+     ("Is No Connect" False)
+     (FLOAT Error))))
   (image L
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\FILTSUB.OLB)
@@ -3051,8 +3222,8 @@
   (image POT
    (property 
     (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\BREAKOUT.OLB)
-    (PSpiceTemplate "X^@REFDES %1 %T %2 POT PARAMS: SET=@SET VALUE=@VALUE")
-    (SET 0.5))
+    (SET 0.5)
+    (PSpiceTemplate "X^@REFDES %1 %T %2 POT PARAMS: SET=@SET VALUE=@VALUE"))
    (pin 999 3
     (property 
      (pinname 2)
@@ -3173,252 +3344,37 @@
      (Type Passive)
      (Order 7)
      ("Is No Connect" True))))
-  (image "CON MC10"
+  (image 1N4001G
    (property 
-    (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
-   (pin 999 A1
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4001G\\1N4001G.OLB)
+    (OriginalSymbolOrigin "(-10000,10000)")
+    (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
+    (MP 1N4001G)
+    (MF "Taiwan Semiconductor")
+    (Package "DO-41-2 Taiwan Semiconductor")
+    (Description "                                                    1A, 50V, Standard Rectifier                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
+    ("PCB Footprint" DIOAD1036W78L470D235))
+   (pin 999 A
     (property 
-     (pinname A1)
+     (pinname A)
      (pintype 4)
-     (Name A1)
-     (Number A1)
+     (Name A)
+     (Number A)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" L298_Out1)
+     ("Net Name" N02585)
      (Order 0)
      ("Is No Connect" False)))
-   (pin 999 A2
+   (pin 999 C
     (property 
-     (pinname A2)
+     (pinname K)
      (pintype 4)
-     (Name A2)
-     (Number A2)
+     (Name K)
+     (Number C)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" L298_Out2)
-     (Order 1)
-     ("Is No Connect" False)))
-   (pin 999 A3
-    (property 
-     (pinname A3)
-     (pintype 4)
-     (Name A3)
-     (Number A3)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_Out3)
-     (Order 2)
-     ("Is No Connect" False)))
-   (pin 999 A4
-    (property 
-     (pinname A4)
-     (pintype 4)
-     (Name A4)
-     (Number A4)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_Out4)
-     (Order 3)
-     ("Is No Connect" False)))
-   (pin 999 A5
-    (property 
-     (pinname A5)
-     (pintype 4)
-     (Name A5)
-     (Number A5)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_ENAA)
-     (Order 4)
-     ("Is No Connect" False)))
-   (pin 999 A6
-    (property 
-     (pinname A6)
-     (pintype 4)
-     (Name A6)
-     (Number A6)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_ENAB)
-     (Order 5)
-     ("Is No Connect" False)))
-   (pin 999 A7
-    (property 
-     (pinname A7)
-     (pintype 4)
-     (Name A7)
-     (Number A7)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_IN1)
-     (Order 6)
-     ("Is No Connect" False)))
-   (pin 999 A8
-    (property 
-     (pinname A8)
-     (pintype 4)
-     (Name A8)
-     (Number A8)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_IN2)
-     (Order 7)
-     ("Is No Connect" False)))
-   (pin 999 A9
-    (property 
-     (pinname A9)
-     (pintype 4)
-     (Name A9)
-     (Number A9)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_IN3)
-     (Order 8)
-     ("Is No Connect" False)))
-   (pin 999 A10
-    (property 
-     (pinname A10)
-     (pintype 4)
-     (Name A10)
-     (Number A10)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" L298_IN4)
-     (Order 9)
-     ("Is No Connect" False)))
-   (pin 999 B1
-    (property 
-     (pinname B1)
-     (pintype 4)
-     (Name B1)
-     (Number B1)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" NE555_OUT)
-     (Order 10)
-     ("Is No Connect" False)))
-   (pin 999 B2
-    (property 
-     (pinname B2)
-     (pintype 4)
-     (Name B2)
-     (Number B2)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" PW_OUT1)
-     (Order 11)
-     ("Is No Connect" False)))
-   (pin 999 B3
-    (property 
-     (pinname B3)
-     (pintype 4)
-     (Name B3)
-     (Number B3)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" PW_OUT2)
-     (Order 12)
-     ("Is No Connect" False)))
-   (pin 999 B4
-    (property 
-     (pinname B4)
-     (pintype 4)
-     (Name B4)
-     (Number B4)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" CANH)
-     (Order 13)
-     ("Is No Connect" False)))
-   (pin 999 B5
-    (property 
-     (pinname B5)
-     (pintype 4)
-     (Name B5)
-     (Number B5)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" CANL)
-     (Order 14)
-     ("Is No Connect" False)))
-   (pin 999 B6
-    (property 
-     (pinname B6)
-     (pintype 4)
-     (Name B6)
-     (Number B6)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" Motor_Drive1)
-     (Order 15)
-     ("Is No Connect" False)))
-   (pin 999 B7
-    (property 
-     (pinname B7)
-     (pintype 4)
-     (Name B7)
-     (Number B7)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" Motor_Drive2)
-     (Order 16)
-     ("Is No Connect" False)))
-   (pin 999 B8
-    (property 
-     (pinname B8)
-     (pintype 4)
-     (Name B8)
-     (Number B8)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N00637)
-     (Order 17)
-     ("Is No Connect" False)))
-   (pin 999 B9
-    (property 
-     (pinname B9)
-     (pintype 4)
-     (Name B9)
-     (Number B9)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N00643)
-     (Order 18)
-     ("Is No Connect" False)))
-   (pin 999 B10
-    (property 
-     (pinname B10)
-     (pintype 4)
-     (Name B10)
-     (Number B10)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N00649)
-     (Order 19)
-     ("Is No Connect" False))))
-  (image LED
-   (property 
-    (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
-   (pin 999 2
-    (property 
-     (pinname ANODE)
-     (pintype 4)
-     (Name ANODE)
-     (Number 2)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N14271)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 1
-    (property 
-     (pinname CATHODE)
-     (pintype 4)
-     (Name CATHODE)
-     (Number 1)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" GND)
+     ("Net Name" N02650)
      (Order 1)
      ("Is No Connect" False))))
   (image "CONN TRBLK 2"
@@ -3446,6 +3402,229 @@
      ("Net Name" PWR_IN1)
      (Order 1)
      ("Is No Connect" False))))
+  (image 10X2MT
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\61202021621\\6120XX21621_61202021621.OLB)
+    (OriginalSymbolOrigin "(-50000,10000)")
+    ("PCB Footprint" 61202021621))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_IN4)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 1)
+     ("Is No Connect" True)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_IN3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 3)
+     ("Is No Connect" True)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_IN2)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "Cur Sense1")
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_IN1)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Motor_Drive2)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_ENAB)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Motor_Drive1)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_ENAA_MCU4)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" CANL)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_Out4)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" CANH)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" L298_Out3)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)
+     (Name 16)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PW_OUT2)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)
+     (Name 17)
+     (Number 17)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N43792)
+     (Order 16)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)
+     (Name 18)
+     (Number 18)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PW_OUT1)
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)
+     (Name 19)
+     (Number 19)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N43782)
+     (Order 18)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)
+     (Name 20)
+     (Number 20)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" NE555_OUT)
+     (Order 19)
+     ("Is No Connect" False))))
   (image "DIODE SCHOTTKY"
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
@@ -3469,33 +3648,6 @@
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" N00657)
-     (Order 1)
-     ("Is No Connect" False))))
-  (image 1N4148
-   (property 
-    (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\EDIODE.OLB)
-    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/")
-    (COMPONENT 1N4148))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)
-     (Name 1)
-     (Number 1)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02585)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4)
-     (Name 2)
-     (Number 2)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02650)
      (Order 1)
      ("Is No Connect" False))))
   (image "SW PUSHBUTTON"
@@ -4181,7 +4333,7 @@
      (Number 4)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" ADC_CurSigR)
+     ("Net Name" Cur_SigR)
      (Order 3)
      ("Is No Connect" False)))
    (pin 999 5
@@ -4246,7 +4398,7 @@
     (property 
      (nettype S))
    (pins
-     U1-3 U2-1 21-1 C22-2 U4-12 R45-2 R46-2 R47-2 U7-4))
+     U1-3 U2-1 21-1 C22-2 U4-12 R45-2 R46-2 R47-2 U21-4))
   (net 24V
     (property 
      (nettype S))
@@ -4262,11 +4414,11 @@
      (nettype S))
    (pins
      U2-4 L1-2 C23-2 U3-3 C24-1 U11-8 U12-8 U17-3 U13-8
-     R27-2 U9-4 U9-8 R50-1 D16-2 D18-2 Q4-3 Q7-3 U7-9
-     U20-1))
+     R27-2 U9-4 U9-8 R50-1 Q4-3 Q7-3 U20-1 U21-9 D25-K
+     D26-K))
   (net ADC1_IN1
    (pins
-     R1-2))
+     R1-2 U11-1))
   (net ADC1_IN11
    (pins
      R9-2))
@@ -4276,15 +4428,9 @@
   (net ADC1_IN13
    (pins
      R15-2))
-  (net ADC1_IN1_3577
-   (pins
-     U11-1))
   (net ADC1_IN2
    (pins
-     R2-2))
-  (net ADC1_IN2_5164
-   (pins
-     RT1-2 R23-2))
+     R2-2 RT1-2 R23-2))
   (net ADC1_IN3
    (pins
      R3-2))
@@ -4311,41 +4457,44 @@
      U13-1 R26-1))
   (net ADC_CURSIGR
    (pins
-     U12-4 U13-7 R29-2))
+     U13-7 R29-2))
   (net BOOT0
    (pins
      U10-44))
   (net CANH
+    (property 
+     (nettype P)
+     (netdir 3))
    (pins
-     J2-B4))
+     J5-14))
   (net CANH_MCU4
    (pins
      U17-7))
   (net CANL
+    (property 
+     (nettype P)
+     (netdir 3))
    (pins
-     J2-B5))
+     J5-12))
   (net CANL_MCU4
    (pins
      U17-6))
   (net CAN_RX
    (pins
-     U10-32))
-  (net CAN_RX_6347
-   (pins
-     U17-4))
+     U10-32 U17-4))
   (net CAN_S
    (pins
-     U10-34))
-  (net CAN_S_6347
-   (pins
-     U17-8))
+     U10-34 U17-8))
   (net CAN_TX
    (pins
-     U10-33))
-  (net CAN_TX_6347
-   (pins
-     U17-1))
+     U10-33 U17-1))
   (net "CUR SENSE1"
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     J5-6))
+  (net "CUR SENSE1_MCU4"
    (pins
      U11-3 R21-1))
   (net CUR_SIG
@@ -4353,19 +4502,13 @@
      R19-1 R24-2 U13-3))
   (net CUR_SIGR
    (pins
-     U13-5 R28-2))
+     U12-4 U13-5 R28-2))
   (net DAC1_OUT2
    (pins
-     R6-2))
-  (net DAC1_OUT2_4559
-   (pins
-     R22-2))
+     R6-2 R22-1))
   (net DAC2_OUT1
    (pins
-     R7-2))
-  (net DAC2_OUT1_3577
-   (pins
-     U11-5))
+     R7-2 U11-5))
   (net GND
     (property 
      (nettype S))
@@ -4375,98 +4518,119 @@
      C4-1 U11-2 U11-4 U12-3 R21-2 R23-1 U16-3 U16-9 U16-14
      U16-16 U16-19 U16-23 U16-29 U16-48 U17-2 U4-1 U4-7 U4-10
      U4-16 SW2-1 R24-1 U13-4 R25-2 R26-2 R28-1 R29-1 R30-1
-     R31-2 D9-1 C5-1 C6-2 D10-1 D11-1 D12-1 C7-1 C8-1
-     U9-1 C12-1 C13-1 R49-1 C14-1 D17-1 D19-1 Q5-2 Q6-2
-     U7-1 U7-8 U20-8))
+     R31-2 C5-1 C6-2 C7-1 C8-1 U9-1 C12-1 C13-1 R49-1
+     C14-1 Q5-2 Q6-2 U20-8 D20-"-" D21-"-" D22-"-" D23-"-" U21-1
+     U21-8 D27-A D28-A))
   (net GND_SIGNAL
     (property 
      (nettype S))
    (pins
-     D3-2 U6-3
+     U6-3
     (property 
      (FLOAT Error))
-     C15-2 C9-2 TP1-1 U8-3 C10-2 C11-2 D5-2))
+     C15-2 C9-2 TP1-1 U8-3 C10-2 C11-2 D11-C D13-C))
   (net L298_ENAA
    (pins
-     J2-A5))
+     U21-6))
   (net L298_ENAA_MCU4
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     U7-6))
+     J5-11))
   (net L298_ENAB
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A6))
+     J5-9))
   (net L298_ENAB_MCU4
    (pins
-     U7-11))
+     U21-11))
   (net L298_IN1
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A7))
+     J5-7))
   (net L298_IN1_MCU4
    (pins
-     U7-5))
+     U21-5))
   (net L298_IN2
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A8))
+     J5-5))
   (net L298_IN2_MCU4
    (pins
-     U7-7))
+     U21-7))
   (net L298_IN3
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A9))
+     J5-3))
   (net L298_IN3_MCU4
    (pins
-     U7-10))
+     U21-10))
   (net L298_IN4
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A10))
+     J5-1))
   (net L298_IN4_MCU4
    (pins
-     U7-12))
+     U21-12))
   (net L298_OUT1
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A1))
+     R51-2))
   (net L298_OUT1_MCU4
    (pins
-     U7-2))
+     U21-2))
   (net L298_OUT2
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-A2))
+     R52-2))
   (net L298_OUT2_MCU4
    (pins
-     U7-3))
+     U21-3))
   (net L298_OUT3
    (pins
-     J2-A3))
+     J5-15))
   (net L298_OUT3_MCU4
    (pins
-     U7-14))
+     U21-14))
   (net L298_OUT4
    (pins
-     J2-A4))
+     J5-13))
   (net L298_OUT4_MCU4
    (pins
-     U7-13))
+     U21-13))
   (net MOTOR_DRIVE1
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-B6))
+     J5-10))
   (net MOTOR_DRIVE1_MCU4
    (pins
-     D16-1 D17-2 Q4-2 Q5-3))
+     Q4-2 Q5-3 D25-A D28-K))
   (net MOTOR_DRIVE2
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-B7))
+     J5-8))
   (net MOTOR_DRIVE2_MCU4
    (pins
-     D19-2 D18-1 Q6-3 Q7-2))
-  (net N00637
-   (pins
-     J2-B8))
-  (net N00643
-   (pins
-     J2-B9))
-  (net N00649
-   (pins
-     J2-B10))
+     Q6-3 Q7-2 D26-A D27-K))
   (net N00657
    (pins
      U2-2 D1-2 L1-1))
@@ -4526,10 +4690,10 @@
      U18-2 T1-1))
   (net N02585
    (pins
-     D2-1 T1-5))
+     T1-5 D10-A))
   (net N02589
    (pins
-     D3-1 T1-8))
+     T1-8 D11-A))
   (net N02593
    (pins
      U10-6 Y2-1 C4-2))
@@ -4538,10 +4702,10 @@
      U10-5 Y2-2 C3-2))
   (net N02650
    (pins
-     D2-2 U6-1
+     U6-1
     (property 
      (FLOAT Error))
-     C15-1))
+     C15-1 D10-C))
   (net N02662
    (pins
      U10-4 Y1-1 C2-2))
@@ -4565,25 +4729,22 @@
      U12-6 Q3-1))
   (net N04565
    (pins
-     U12-2 R22-1))
+     U12-2 R22-2))
   (net N04660
    (pins
      U12-5 Q3-3))
   (net N04921
    (pins
-     U8-1 C10-1 D4-2))
+     U8-1 C10-1 D12-C))
   (net N05120
    (pins
-     T2-8 D5-1))
+     T2-8 D13-A))
   (net N05162
    (pins
-     T2-5 D4-1))
+     T2-5 D12-A))
   (net N06245
    (pins
-     U9-3 R44-2))
-  (net N06254
-   (pins
-     R44-1 D6-2))
+     U9-3 R44-1))
   (net N06902
    (pins
      U9-5 C12-2))
@@ -4592,13 +4753,13 @@
      U9-2 U9-6 R43-2 C13-2))
   (net N07062
    (pins
-     R43-1 D7-1))
+     R43-1 D15-A))
   (net N07069
    (pins
-     R43-3 D8-2))
+     R43-3 D14-K))
   (net N07076
    (pins
-     U9-7 D7-2 D8-1 R50-2))
+     U9-7 R50-2 D14-A D15-K))
   (net N07575
    (pins
      U4-9 R45-1))
@@ -4649,7 +4810,7 @@
      U16-24 R32-1))
   (net N12297
    (pins
-     R32-2 D9-2))
+     R32-2 D20-+))
   (net N12388
    (pins
      U16-20 C6-1))
@@ -4676,19 +4837,19 @@
      U16-25 R38-1))
   (net N14271
    (pins
-     R38-2 D10-2))
+     R38-2 D21-+))
   (net N14373
    (pins
      U16-26 R39-1))
   (net N14393
    (pins
-     R39-2 D11-2))
+     R39-2 D22-+))
   (net N14498
    (pins
      U16-27 R40-1))
   (net N14518
    (pins
-     D12-2 R40-2))
+     R40-2 D23-+))
   (net N15215
    (pins
      U16-30 R41-1 R42-2))
@@ -4710,12 +4871,24 @@
   (net N18624
    (pins
      Q6-1 U20-15))
-  (net NE555_OUT
+  (net N19104
    (pins
-     J2-B1))
+     D9-+ R44-2))
+  (net N43782
+   (pins
+     J5-19 R51-1))
+  (net N43792
+   (pins
+     J5-17 R52-1))
+  (net NE555_OUT
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     J5-20))
   (net NE555_OUT_PWR
    (pins
-     D6-1))
+     D9-"-"))
   (net PA14
    (pins
      U10-37))
@@ -4735,65 +4908,71 @@
    (pins
      U10-2))
   (net PWR_IN1
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
      J3-2))
   (net PWR_IN1_PWR
    (pins
      U18-1))
   (net PWR_IN2
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
      J3-1))
   (net PWR_IN2_PWR
    (pins
      T1-4))
   (net PWR_IN3
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
      J4-2))
   (net PWR_IN3_PWR
    (pins
      U19-1))
   (net PWR_IN4
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
      J4-1))
   (net PWR_IN4_PWR
    (pins
      T2-4))
   (net PW_OUT1
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-B2))
+     J5-18))
   (net PW_OUT1_PWR
    (pins
      U4-8 R46-1))
   (net PW_OUT2
+    (property 
+     (nettype P)
+     (netdir 1))
    (pins
-     J2-B3))
+     J5-16))
   (net PW_OUT2_PWR
    (pins
      U4-11 R47-1))
   (net SPI1_MISO
    (pins
-     U10-40))
-  (net SPI1_MISO_6262
-   (pins
-     U16-34))
+     U10-40 U16-34))
   (net SPI1_MOSI
    (pins
-     U10-41))
-  (net SPI1_MOSI_6262
-   (pins
-     U16-35))
+     U10-41 U16-35))
   (net SPI1_SCK
    (pins
-     U10-39))
-  (net SPI1_SCK_6262
-   (pins
-     U16-33))
+     U10-39 U16-33))
   (net SPI1_SCS1
    (pins
-     U10-38))
-  (net SPI1_SCS1_6262
-   (pins
-     U16-32))
+     U10-38 U16-32))
   (net TIM16_CH1
    (pins
      U10-45))

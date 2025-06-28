@@ -35,7 +35,8 @@
     (OTHER_Switch3 "FALSE")
     (OTHER_Switch4 "FALSE")
     (OTHER_Switch5 "FALSE")
-    (OTHER_Switch6 "FALSE"))
+    (OTHER_Switch6 "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\stm32devbd.bom"
       (Type "Report"))
@@ -51,6 +52,69 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (NPN
+      (FullPartName "NPN.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\ORCAD_LIBRARY_COMMERCIAL\2N3055 (2)\2N3055.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\ORCAD_LIBRARY_COMMERCIAL\1N4148_2\1N4148.OLB")
+      (DeviceIndex "0"))
+    (1N4001G
+      (FullPartName "1N4001G.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\ORCAD_LIBRARY_COMMERCIAL\1N4001G\1N4001G.OLB")
+      (DeviceIndex "0"))
+    (D-1
+      (FullPartName "D-1.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\ORCAD_LIBRARY_COMMERCIAL\1N4148\1N4148.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L298
+      (FullPartName "L298.Normal")
+      (LibraryName "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\DEVBD.OLB")
+      (DeviceIndex "0"))
+    (10X2MT
+      (FullPartName "10X2MT.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\ORCAD_LIBRARY_COMMERCIAL\61202021621\6120XX21621_61202021621.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED-1
+      (FullPartName "LED-1.Normal")
+      (LibraryName
+         "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\ORCAD_LIBRARY_COMMERCIAL\LED-SMD-RED-DIFFUSED(0603)\LED-SMD-RED-DIFFUSED0603.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     ("CONN PCB 2"
       (FullPartName "CONN PCB 2.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -71,10 +135,6 @@
       (FullPartName "CD4049.Normal")
       (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
       (DeviceIndex "0"))
-    (L298
-      (FullPartName "L298.Normal")
-      (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
-      (DeviceIndex "0"))
     (TL494
       (FullPartName "TL494.Normal")
       (LibraryName
@@ -88,69 +148,10 @@
       (LibraryName
          "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\PWRBJT.OLB")
       (DeviceIndex "0"))
-    (1N4148
-      (FullPartName "1N4148.Normal")
-      (LibraryName
-         "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\EDIODE.OLB")
-      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName
          "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
-      (DeviceIndex "0"))
-    (CON1
-      (FullPartName "CON1.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (POT
-      (FullPartName "POT.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
-      (DeviceIndex "0"))
-    (NE555
-      (FullPartName "NE555.Normal")
-      (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-R
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL
-      (FullPartName "CRYSTAL.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (RJ45
-      (FullPartName "RJ45.Normal")
-      (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
-      (DeviceIndex "0"))
-    (LM7824
-      (FullPartName "LM7824.Normal")
-      (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
-      (DeviceIndex "0"))
-    (TRANSFORMER
-      (FullPartName "TRANSFORMER.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (AMS1117
-      (FullPartName "AMS1117.Normal")
-      (LibraryName "C:\USERS\D\DESKTOP\STM\DEVBD.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -164,12 +165,16 @@
       (Path "Design Resources"
          "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32C031")
       (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32F303")
+      (Path "Design Resources"
          "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "stm32f303c8")
+      (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32G491")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\devbd.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "SCHEMATIC1"
-         "TOP"))
+      (Path "PSpice Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -179,9 +184,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 964 78 497")
-        (Scroll "-41 0")
-        (Zoom "78")
+        (Placement "44 0 1 -1 -1 -8 -31 208 1194 208 678")
+        (Scroll "231 439")
+        (Zoom "236")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "stm32f303c8")
+      (Page "PWM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1116 130 581")
+        (Scroll "1089 1167")
+        (Zoom "282")
         (Occurrence "/"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "SCHEMATIC1")
@@ -189,57 +204,18 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 990 104 523")
-        (Scroll "0 160")
-        (Zoom "100")
-        (Occurrence "/MCU4"))
-      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
-      (Schematic "stm32f303c8")
-      (Page "COM"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 944 0 47")
-        (Scroll "0 0")
-        (Zoom "120")
-        (Occurrence "/MCU4"))
-      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
-      (Schematic "stm32f303c8")
-      (Page "stm32f303c8"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1132 0 256")
-        (Scroll "-57 290")
-        (Zoom "100")
-        (Occurrence "/PWR"))
-      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
-      (Schematic "POWER")
-      (Page "PWR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1158 26 273")
-        (Scroll "138 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1116 52 377")
+        (Scroll "242 580")
         (Zoom "200")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "POWER")
-      (Page "VarPWR"))
+      (Page "SMPS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1184 52 299")
-        (Scroll "-57 0")
-        (Zoom "100"))
-      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
-      (Schematic "STM32C031")
-      (Page "STM32C031"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1106 26 348")
-        (Scroll "-31 0")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1142 78 403")
+        (Scroll "-23 200")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -248,24 +224,71 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1132 52 374")
-        (Scroll "-31 150")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1168 104 429")
+        (Scroll "-23 0")
         (Zoom "100")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "POWER")
-      (Page "SMPS"))
+      (Page "PWR"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1158 78 400")
-        (Scroll "-31 0")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1194 130 455")
+        (Scroll "-23 180")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "stm32f303c8")
-      (Page "PWM")))
+      (Page "stm32f303c8"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1064 0 325")
+        (Scroll "-23 0")
+        (Zoom "100"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "STM32C031")
+      (Page "STM32C031"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1090 26 351")
+        (Scroll "-23 0")
+        (Zoom "100"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "STM32F303")
+      (Page "STM32F303"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1116 52 377")
+        (Scroll "-23 270")
+        (Zoom "100"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "STM32G491")
+      (Page "STM32G491"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1194 26 143")
+        (Scroll "-65 85")
+        (Zoom "102")
+        (Occurrence "/PWR"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "POWER")
+      (Page "VarPWR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1168 26 173")
+        (Scroll "-62 12")
+        (Zoom "100")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "stm32f303c8")
+      (Page "COM")))
   (MPSSessionName "D")
   (LastUsedLibraryBrowseDirectory
-     "C:\Cadence\SPB_16.6\tools\capture\library\pspice\advanls")
+     "C:\Users\D\Advanced_Circuit\MCU\Stm\Orcad_Library_Commercial\2N3055 (2)")
   (ISPCBBASICLICENSE "false"))
