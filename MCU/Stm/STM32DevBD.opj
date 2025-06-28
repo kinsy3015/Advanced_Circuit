@@ -218,7 +218,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 78 1142 78 403")
-        (Scroll "-22 0")
+        (Scroll "-22 10")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -247,8 +247,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1064 0 325")
-        (Scroll "-22 0")
+        (Placement "44 0 1 -1 -1 -9 -38 0 1064 0 325")
+        (Scroll "-22 150")
         (Zoom "100"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "STM32C031")
