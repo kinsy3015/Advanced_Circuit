@@ -156,39 +156,30 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "POWER")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32C031")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32F303")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "stm32f303c8")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32G491")
+      (Path "Design Resources" ".\stm32devbd162.dsn")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "POWER")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "STM32C031")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "STM32F303")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "stm32f303c8")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "STM32G491")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "C:\Users\D\Advanced_Circuit\MCU\Stm\devbd.olb")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "SCHEMATIC1"
-         "TOP"))
+      (Select "Design Resources" ".\stm32devbd162.dsn" "POWER" "PWR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -9 -38 0 200 0 393"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 393"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 208 1194 208 678")
-        (Scroll "1349 745")
+        (Scroll "1343 745")
         (Zoom "236")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -218,7 +209,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 78 1142 78 403")
-        (Scroll "-22 10")
+        (Scroll "-23 0")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -227,9 +218,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 104 1168 104 429")
-        (Scroll "-22 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1168 104 429")
+        (Scroll "-7 -327")
+        (Zoom "114")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "POWER")
@@ -238,7 +229,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1194 130 455")
-        (Scroll "-22 0")
+        (Scroll "-23 0")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -248,7 +239,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 0 1064 0 325")
-        (Scroll "-22 150")
+        (Scroll "-23 0")
         (Zoom "100"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "STM32C031")
@@ -257,7 +248,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 26 1090 26 351")
-        (Scroll "-22 0")
+        (Scroll "-23 0")
         (Zoom "100"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "STM32F303")
@@ -266,7 +257,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 52 1116 52 377")
-        (Scroll "-22 0")
+        (Scroll "-23 0")
         (Zoom "100"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "STM32G491")
@@ -275,7 +266,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 26 1194 26 143")
-        (Scroll "-64 0")
+        (Scroll "-65 0")
         (Zoom "102")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
@@ -285,7 +276,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 26 1168 26 173")
-        (Scroll "-61 0")
+        (Scroll "-62 0")
         (Zoom "100")
         (Occurrence "/MCU4"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
