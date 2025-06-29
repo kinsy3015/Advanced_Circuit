@@ -1,6 +1,6 @@
 (PCB STM32DEVBD162
  (description
-  (timeStamp "2025 06 29 09 13 59")
+  (timeStamp "2025 06 29 13 52 39")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
@@ -30,10 +30,128 @@
    (place D29
     (property 
      (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1898W129L762D1143)
+     ("PCB Footprint" SOD3715X135N)
      (timestamp 00005AC7)
      ("Source Package" 1N5824)
      (Value 1N5824))))
+  (component D
+   (place D25
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" SOD3715X135N)
+     (timestamp 0000F48D)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO35-10")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D26
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" SOD3715X135N)
+     (timestamp 0000F4B1)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO35-10")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D27
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" SOD3715X135N)
+     (timestamp 0000F4C5)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO35-10")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D28
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" SOD3715X135N)
+     (timestamp 0000F4D9)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO35-10")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D30
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" DIOM5226X220N)
+     (timestamp 0000623E)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO-41 Diotec")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D31
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" DIOM5226X220N)
+     (timestamp 00006278)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO-41 Diotec")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D32
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" DIOM5226X220N)
+     (timestamp 000062F6)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO-41 Diotec")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D33
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" DIOM5226X220N)
+     (timestamp 0000630A)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO-41 Diotec")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
+   (place D35
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" SOD3715X135N)
+     (timestamp 00006719)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D)
+     (MF "Diotec Semiconductor")
+     (Package "DO35-10")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            "))))
   (component TJA1051_0
    (place U17
     (property 
@@ -97,6 +215,13 @@
      (timestamp 00001023)
      ("Source Package" "NPN BCE")
      (Value "NPN BCE"))))
+  (component C_0
+   (place C15
+    (property 
+     ("PCB Footprint" CAPAE430X565N)
+     (timestamp 00000A80)
+     ("Source Package" C_0)
+     (Value 220uF))))
   (component TRANSFORMER_0
    (place T1
     (property 
@@ -133,6 +258,13 @@
      (timestamp 00000247)
      ("Source Package" "CONN TRBLK 2")
      (Value "CONN TRBLK 2"))))
+  (component C_1
+   (place C9
+    (property 
+     ("PCB Footprint" CAPAE430X565N)
+     (timestamp 00000A90)
+     ("Source Package" C_1)
+     (Value 100uF))))
   (component LM7824
    (place U8
     (property 
@@ -154,6 +286,34 @@
      (timestamp 00000030)
      ("Source Package" LM2940)
      (Value LM2940))))
+  (component C_2
+   (place C10
+    (property 
+     ("PCB Footprint" CAPAE430X565N)
+     (timestamp 000012DD)
+     ("Source Package" C_2)
+     (Value 220uF))))
+  (component C_3
+   (place C11
+    (property 
+     ("PCB Footprint" CAPAE430X565N)
+     (timestamp 000012F7)
+     ("Source Package" C_3)
+     (Value 100uF))))
+  (component D_2
+   (place D34
+    (property 
+     (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,10000)")
+     ("PCB Footprint" SOD3715X135N)
+     (timestamp 00006490)
+     (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+     ("Source Package" D_2)
+     (MF "Diotec Semiconductor")
+     (Package "DO35-10")
+     (Value D)
+     (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            "))))
   (component AMS1117
    (place U3
     (property 
@@ -169,6 +329,59 @@
      (timestamp 00000255)
      ("Source Package" L)
      (Value 33uH))))
+  (component NPN
+   (place Q8
+    (property 
+     (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,30000)")
+     ("PCB Footprint" "SOT95P237X111-3N")
+     (timestamp 0000F258)
+     (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
+     ("Source Package" NPN)
+     (MF "Microchip Technology")
+     (Package None)
+     (Value 2N2222)
+     (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")))
+   (place Q9
+    (property 
+     (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,30000)")
+     ("PCB Footprint" "SOT95P237X111-3N")
+     (timestamp 0000F276)
+     (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
+     ("Source Package" NPN)
+     (MF "Microchip Technology")
+     (Package None)
+     (Value 2N2222)
+     (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")))
+   (place Q10
+    (property 
+     (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,30000)")
+     ("PCB Footprint" "SOT95P237X111-3N")
+     (timestamp 0000F294)
+     (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
+     ("Source Package" NPN)
+     (MF "Microchip Technology")
+     (Package None)
+     (Value 2N2222)
+     (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")))
+   (place Q11
+    (property 
+     (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(0,30000)")
+     ("PCB Footprint" "SOT95P237X111-3N")
+     (timestamp 0000F2B2)
+     (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
+     ("Source Package" NPN)
+     (MF "Microchip Technology")
+     (Package None)
+     (Value 2N2222)
+     (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18"))))
   (component "WR-FSH"
    (place J8
     (property 
@@ -218,20 +431,6 @@
      (timestamp 0000142C)
      ("Source Package" NTC)
      (Value NTC))))
-  (component 1N4001RLG_4
-   (place D18
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-     (MP 1N4001RLG)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005972)
-     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4001RLG_4)
-     (MF "ON Semiconductor")
-     (Package "DO-41 onsemi")
-     (Value 1N4001RLG)
-     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        "))))
   (component NE555
    (place U9
     (property 
@@ -239,113 +438,6 @@
      (timestamp 00001802)
      ("Source Package" NE555)
      (Value NE555))))
-  (component "LED-1"
-   (place D20
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-     (MP "19-217/R6C-AL1M2VY/3T")
-     (OriginalSymbolOrigin "(-5000,20000)")
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 000093FF)
-     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-     ("Source Package" "LED-1")
-     (MF "Everlight Electronics")
-     (Package "0603 Everlight Electronics")
-     (Value "LED-1")
-     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
-   (place D21
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-     (MP "19-217/R6C-AL1M2VY/3T")
-     (OriginalSymbolOrigin "(-5000,20000)")
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 00009527)
-     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-     ("Source Package" "LED-1")
-     (MF "Everlight Electronics")
-     (Package "0603 Everlight Electronics")
-     (Value "LED-1")
-     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
-   (place D22
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-     (MP "19-217/R6C-AL1M2VY/3T")
-     (OriginalSymbolOrigin "(-5000,20000)")
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 00009543)
-     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-     ("Source Package" "LED-1")
-     (MF "Everlight Electronics")
-     (Package "0603 Everlight Electronics")
-     (Value "LED-1")
-     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
-   (place D23
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-     (MP "19-217/R6C-AL1M2VY/3T")
-     (OriginalSymbolOrigin "(-5000,20000)")
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 0000955F)
-     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-     ("Source Package" "LED-1")
-     (MF "Everlight Electronics")
-     (Package "0603 Everlight Electronics")
-     (Value "LED-1")
-     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
-   (place D9
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-     (MP "19-217/R6C-AL1M2VY/3T")
-     (OriginalSymbolOrigin "(-5000,20000)")
-     ("PCB Footprint" LEDC1608X60M)
-     (timestamp 000048BC)
-     (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-     ("Source Package" "LED-1")
-     (MF "Everlight Electronics")
-     (Package "0603 Everlight Electronics")
-     (Value "LED-1")
-     (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  "))))
-  (component 1N4001RLG_5
-   (place D19
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-     (MP 1N4001RLG)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 000059BA)
-     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4001RLG_5)
-     (MF "ON Semiconductor")
-     (Package "DO-41 onsemi")
-     (Value 1N4001RLG)
-     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        "))))
-  (component 1N4001RLG
-   (place D16
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-     (MP 1N4001RLG)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005918)
-     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4001RLG)
-     (MF "ON Semiconductor")
-     (Package "DO-41 onsemi")
-     (Value 1N4001RLG)
-     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        ")))
-   (place D17
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-     (MP 1N4001RLG)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005928)
-     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4001RLG)
-     (MF "ON Semiconductor")
-     (Package "DO-41 onsemi")
-     (Value 1N4001RLG)
-     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        "))))
   (component L298_1
    (place U21
     (property 
@@ -353,85 +445,77 @@
      (timestamp 0000BB91)
      ("Source Package" L298_1)
      (Value L298))))
-  (component 1N4148
-   (place D25
+  (component C_9
+   (place C23
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-     (MP 1N4148)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 0000BD29)
-     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4148)
-     (MF onsemi)
-     (Package DIOAD1036W78L470D235)
-     (Value 1N4148)
-     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
-   (place D26
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" CAPAE430X565N)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
+     (timestamp 0000026F)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C_9)
+     (Value 220uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0))))
+  (component WP7113SECJ3_0
+   (place D20
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-     (MP 1N4148)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 0000BE64)
-     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4148)
-     (MF onsemi)
-     (Package DIOAD1036W78L470D235)
-     (Value 1N4148)
-     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
-   (place D27
+     (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 0000EAD2)
+     (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+     ("Source Package" WP7113SECJ3_0)
+     (MF Kingbright)
+     (Package "Radial Kingbright")
+     (Value WP7113SECJ3)
+     (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           ")))
+   (place D21
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-     (MP 1N4148)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 0000BEA0)
-     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4148)
-     (MF onsemi)
-     (Package DIOAD1036W78L470D235)
-     (Value 1N4148)
-     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
-   (place D28
+     (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 0000EE17)
+     (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+     ("Source Package" WP7113SECJ3_0)
+     (MF Kingbright)
+     (Package "Radial Kingbright")
+     (Value WP7113SECJ3)
+     (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           ")))
+   (place D22
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-     (MP 1N4148)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 0000BEE1)
-     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4148)
-     (MF onsemi)
-     (Package DIOAD1036W78L470D235)
-     (Value 1N4148)
-     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
-   (place D14
+     (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 0000EE31)
+     (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+     ("Source Package" WP7113SECJ3_0)
+     (MF Kingbright)
+     (Package "Radial Kingbright")
+     (Value WP7113SECJ3)
+     (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           ")))
+   (place D23
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-     (MP 1N4148)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005208)
-     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4148)
-     (MF onsemi)
-     (Package "AXIAL LEAD-2 ON Semiconductor")
-     (Value 1N4148)
-     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
-   (place D15
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-     (MP 1N4148)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005270)
-     (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-     ("Source Package" 1N4148)
-     (MF onsemi)
-     (Package "AXIAL LEAD-2 ON Semiconductor")
-     (Value 1N4148)
-     (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           "))))
+     (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 0000EE4B)
+     (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+     ("Source Package" WP7113SECJ3_0)
+     (MF Kingbright)
+     (Package "Radial Kingbright")
+     (Value WP7113SECJ3)
+     (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           "))))
   (component R
    (place R25
     (property 
@@ -1209,6 +1293,20 @@
      (timestamp 00003A74)
      ("Source Package" CRYSTAL)
      (Value 25MHz))))
+  (component WP7113SECJ3
+   (place D9
+    (property 
+     (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     ("PCB Footprint" LEDC1608X60M)
+     (timestamp 000067CB)
+     (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+     ("Source Package" WP7113SECJ3)
+     (MF Kingbright)
+     (Package "Radial Kingbright")
+     (Value WP7113SECJ3)
+     (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           "))))
   (component C
    (place C20
     (property 
@@ -1234,30 +1332,13 @@
      (VOLTAGE CMAX)
      (KNEE CBMAX)
      (CURRENT CIMAX)
-     ("PCB Footprint" CAPC0603X33M)
+     ("PCB Footprint" CAPAE1030X1050N)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000001B2)
      (DIST FLAT)
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 680uF)
-     (MAX_TEMP CTMAX)
-     (TC1 0)
-     (TC2 0)))
-   (place C23
-    (property 
-     (VC1 0)
-     (VC2 0)
-     (VOLTAGE CMAX)
-     (KNEE CBMAX)
-     (CURRENT CIMAX)
-     ("PCB Footprint" CAPC0603X33M)
-     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
-     (timestamp 0000026F)
-     (DIST FLAT)
-     (SLOPE CSMAX)
-     ("Source Package" C)
-     (Value 220uF)
      (MAX_TEMP CTMAX)
      (TC1 0)
      (TC2 0)))
@@ -1369,30 +1450,12 @@
      (timestamp 00003A5B)
      ("Source Package" C)
      (Value 1n)))
-   (place C9
-    (property 
-     ("PCB Footprint" CAPC0603X33M)
-     (timestamp 00000A90)
-     ("Source Package" C)
-     (Value 100uF)))
    (place 21
     (property 
      ("PCB Footprint" CAPC0603X33M)
      (timestamp 000000C4)
      ("Source Package" C)
      (Value 22uF)))
-   (place C10
-    (property 
-     ("PCB Footprint" CAPC0603X33M)
-     (timestamp 000012DD)
-     ("Source Package" C)
-     (Value 220uF)))
-   (place C11
-    (property 
-     ("PCB Footprint" CAPC0603X33M)
-     (timestamp 000012F7)
-     ("Source Package" C)
-     (Value 100uF)))
    (place C12
     (property 
      ("PCB Footprint" CAPC0603X33M)
@@ -1413,71 +1476,36 @@
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
      (timestamp 00002103)
      ("Source Package" C)
-     (Value 1n)))
-   (place C15
-    (property 
-     ("PCB Footprint" CAPC0603X33M)
-     (timestamp 00000A80)
-     ("Source Package" C)
-     (Value 220uF))))
-  (component "MMBT3904-7-F"
-   (place Q8
-    (property 
-     (OriginalSymbolOrigin "(0,30000)")
-     ("PCB Footprint" TO_3_ONS)
-     (timestamp 0000C9E1)
-     ("Source Package" "MMBT3904-7-F")
-     (Value Q2N3055)))
-   (place Q9
-    (property 
-     (OriginalSymbolOrigin "(0,30000)")
-     ("PCB Footprint" TO_3_ONS)
-     (timestamp 0000CB04)
-     ("Source Package" "MMBT3904-7-F")
-     (Value Q2N3055)))
-   (place Q10
-    (property 
-     (OriginalSymbolOrigin "(0,30000)")
-     ("PCB Footprint" TO_3_ONS)
-     (timestamp 0000CB8C)
-     ("Source Package" "MMBT3904-7-F")
-     (Value Q2N3055)))
-   (place Q11
-    (property 
-     (OriginalSymbolOrigin "(0,30000)")
-     ("PCB Footprint" TO_3_ONS)
-     (timestamp 0000CBF6)
-     ("Source Package" "MMBT3904-7-F")
-     (Value Q2N3055)))))
+     (Value 1n)))))
  (library
-  (image "LED-1"
+  (image WP7113SECJ3_0
    (property 
-    (sourcelib "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\LED-SMD-RED-DIFFUSED(0603)\\LED-SMD-RED-DIFFUSED0603.OLB")
-    (OriginalSymbolOrigin "(-5000,20000)")
-    (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-    (MP "19-217/R6C-AL1M2VY/3T")
-    (MF "Everlight Electronics")
-    (Package "0603 Everlight Electronics")
-    (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                                            ")
-    (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-    ("PCB Footprint" "LED-0603"))
-   (pin 999 +
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
+    ("PCB Footprint" LEDC1608X60M)
+    (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+    (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                                            ")
+    (Package "Radial Kingbright")
+    (MF Kingbright)
+    (MP WP7113SEC/J3)
+    (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(-20000,20000)"))
+   (pin 999 A
     (property 
-     (pinname +)
+     (pinname A)
      (pintype 4)
-     (Name +)
-     (Number +)
+     (Name A)
+     (Number A)
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" N12297)
      (Order 0)
      ("Is No Connect" False)))
-   (pin 999 "-"
+   (pin 999 C
     (property 
-     (pinname "-")
+     (pinname C)
      (pintype 4)
-     (Name "-")
-     (Number "-")
+     (Name C)
+     (Number C)
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" GND)
@@ -1607,42 +1635,48 @@
      ("Net Name" 5V)
      (Order 7)
      ("Is No Connect" False))))
-  (image "MMBT3904-7-F"
+  (image NPN
    (property 
-    (sourcelib "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\NPN\\MMBT3904-7-F.OLB")
-    ("PCB Footprint" "SOT95P230X110-3N")
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\2N3700\\2N3700.OLB)
+    ("PCB Footprint" TO18)
+    (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
+    (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")
+    (Package None)
+    (MF "Microchip Technology")
+    (MP 2N3700)
+    (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
     (OriginalSymbolOrigin "(0,30000)"))
-   (pin 999 B
-    (property 
-     (pinname B)
-     (pintype 4)
-     (Name B)
-     (Number B)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N58412)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 C
-    (property 
-     (pinname C)
-     (pintype 4)
-     (Name C)
-     (Number C)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" Motor_Drive1)
-     (Order 1)
-     ("Is No Connect" False)))
-   (pin 999 E
+   (pin 999 1
     (property 
      (pinname E)
      (pintype 4)
      (Name E)
-     (Number E)
+     (Number 1)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" GND)
+     ("Net Name" Motor_Drive1)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname B)
+     (pintype 4)
+     (Name B)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N58439)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname C)
+     (pintype 4)
+     (Name C)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
      (Order 2)
      ("Is No Connect" False))))
   (image W5500
@@ -2255,34 +2289,34 @@
      ("Net Name" CAN_S)
      (Order 7)
      ("Is No Connect" False))))
-  (image 1N4148
+  (image D
    (property 
-    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4148_2\\1N4148.OLB)
-    (OriginalSymbolOrigin "(-10000,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
-    (MP 1N4148)
-    (MF onsemi)
-    (Package "AXIAL LEAD-2 ON Semiconductor")
-    (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                                            ")
-    (SnapEDA_Link "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD753W49L380D172B))
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4001\\1N4001.OLB)
+    ("PCB Footprint" "DO41-10")
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+    (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")
+    (Package "DO-41 Diotec")
+    (MF "Diotec Semiconductor")
+    (MP 1N4001)
+    (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(0,10000)"))
    (pin 999 A
     (property 
-     (pinname A)
+     (pinname ANODE)
      (pintype 4)
-     (Name A)
+     (Name ANODE)
      (Number A)
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" Motor_Drive1)
      (Order 0)
      ("Is No Connect" False)))
-   (pin 999 K
+   (pin 999 C
     (property 
-     (pinname K)
+     (pinname CATHODE)
      (pintype 4)
-     (Name K)
-     (Number K)
+     (Name CATHODE)
+     (Number C)
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" 5V)
@@ -2374,6 +2408,42 @@
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" 24V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C_9
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
+    (TC2 0)
+    (TC1 0)
+    (DIST FLAT)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+    (VOLTAGE CMAX)
+    (CURRENT CIMAX)
+    (KNEE CBMAX)
+    (SLOPE CSMAX)
+    (MAX_TEMP CTMAX)
+    (VC1 0)
+    (VC2 0))
+   (pin 999 N
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number N)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 P
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number P)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
      (Order 1)
      ("Is No Connect" False))))
   (image LM2940
@@ -3033,7 +3103,7 @@
      (Number 1)
      ("Swap Id" "-1")
      (Type Input)
-     ("Net Name" N02650)
+     ("Net Name" 1N4001)
      (Order 0)
      ("Is No Connect" False)
      (FLOAT Error)))
@@ -3214,7 +3284,7 @@
      (Number 7)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N07076)
+     ("Net Name" 1N4148)
      (Order 6)
      ("Is No Connect" False)))
    (pin 999 8
@@ -3227,6 +3297,64 @@
      (Type Passive)
      ("Net Name" 5V)
      (Order 7)
+     ("Is No Connect" False))))
+  (image D_2
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
+    ("PCB Footprint" DIOAD1036W78L470D235)
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
+    (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")
+    (Package "DO-41 Diotec")
+    (MF "Diotec Semiconductor")
+    (MP 1N4001)
+    (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 A
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     (Name ANODE)
+     (Number A)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 1N4148)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 C
+    (property 
+     (pinname CATHODE)
+     (pintype 4)
+     (Name CATHODE)
+     (Number C)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N07069)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C_1
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
+   (pin 999 P
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number P)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 N
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number N)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
      ("Is No Connect" False))))
   (image CRYSTAL
    (property 
@@ -3654,17 +3782,17 @@
      ("Net Name" N02528)
      (Order 1)
      ("Is No Connect" False))))
-  (image 1N4001RLG
+  (image WP7113SECJ3
    (property 
-    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4001RLG\\1N4001RLG.OLB)
-    (OriginalSymbolOrigin "(-10000,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-    (MP 1N4001RLG)
-    (MF "ON Semiconductor")
-    (Package "DO-41 onsemi")
-    (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG                                            ")
-    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD953W69L521D272))
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\WP7113SEC_J3\\WP7113SECJ3.OLB)
+    ("PCB Footprint" LED_WP7113SECJ3)
+    (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
+    (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                                            ")
+    (Package "Radial Kingbright")
+    (MF Kingbright)
+    (MP WP7113SEC/J3)
+    (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(-20000,20000)"))
    (pin 999 A
     (property 
      (pinname A)
@@ -3673,7 +3801,7 @@
      (Number A)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N05120)
+     ("Net Name" N19104)
      (Order 0)
      ("Is No Connect" False)))
    (pin 999 C
@@ -3684,73 +3812,7 @@
      (Number C)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" GND_SIGNAL)
-     (Order 1)
-     ("Is No Connect" False))))
-  (image 1N4001RLG_4
-   (property 
-    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
-    (OriginalSymbolOrigin "(-10000,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-    (MP 1N4001RLG)
-    (MF "ON Semiconductor")
-    (Package "DO-41 onsemi")
-    (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG                                            ")
-    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD953W69L521D272))
-   (pin 999 5
-    (property 
-     (pinname A)
-     (pintype 4)
-     (Name A)
-     (Number 5)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02585)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 1
-    (property 
-     (pinname C)
-     (pintype 4)
-     (Name C)
-     (Number 1)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02650)
-     (Order 1)
-     ("Is No Connect" False))))
-  (image 1N4001RLG_5
-   (property 
-    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
-    (OriginalSymbolOrigin "(-10000,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
-    (MP 1N4001RLG)
-    (MF "ON Semiconductor")
-    (Package "DO-41 onsemi")
-    (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG                                            ")
-    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD953W69L521D272))
-   (pin 999 8
-    (property 
-     (pinname A)
-     (pintype 4)
-     (Name A)
-     (Number 8)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02589)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 3
-    (property 
-     (pinname C)
-     (pintype 4)
-     (Name C)
-     (Number 3)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" GND_SIGNAL)
+     ("Net Name" NE555_OUT)
      (Order 1)
      ("Is No Connect" False))))
   (image "SW PUSHBUTTON"
@@ -3776,6 +3838,56 @@
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" N03059)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C_2
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
+   (pin 999 P
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number P)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04921)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 N
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number N)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C_3
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
+   (pin 999 P
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number P)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +24V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 N
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number N)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
      (Order 1)
      ("Is No Connect" False))))
   (image TRANSFORMER_0
@@ -3871,6 +3983,31 @@
      (Type Passive)
      ("Net Name" N05120)
      (Order 3)
+     ("Is No Connect" False))))
+  (image C_0
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
+   (pin 999 P
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number P)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 1N4001)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 N
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number N)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
      ("Is No Connect" False))))
   (image "NPN BCE"
    (property 
@@ -4535,7 +4672,7 @@
     (property 
      (nettype S))
    (pins
-     U8-2 C11-1))
+     U8-2 C11-P))
   (net +5V
     (property 
      (nettype S))
@@ -4543,12 +4680,21 @@
      U6-2
     (property 
      (FLOAT Error))
-     C9-1))
+     C9-P))
   (net 12V
     (property 
      (nettype S))
    (pins
      U1-3 U2-1 21-1 C22-2 U4-12 R45-2 R46-2 R47-2 U21-4))
+  (net 1N4001
+   (pins
+     U6-1
+    (property 
+     (FLOAT Error))
+     C15-P D30-C))
+  (net 1N4148
+   (pins
+     U9-7 R50-2 D34-A D35-C))
   (net 24V
     (property 
      (nettype S))
@@ -4563,9 +4709,9 @@
     (property 
      (nettype S))
    (pins
-     U2-4 L1-2 C23-2 U3-3 C24-1 U11-8 U12-8 U17-3 U13-8
-     R27-2 U9-4 U9-8 R50-1 U20-1 U21-9 D25-K D26-K Q9-C
-     Q10-C))
+     U2-4 L1-2 C23-P U3-3 C24-1 U11-8 U12-8 U17-3 U13-8
+     R27-2 U9-4 U9-8 R50-1 U20-1 U21-9 Q8-3 Q9-3 D25-C
+     D26-C))
   (net ADC1_IN1
    (pins
      R1-2 U11-1))
@@ -4687,14 +4833,14 @@
     (property 
      (nettype S))
    (pins
-     U1-2 U2-3 U2-5 C20-1 21-2 C22-1 C23-1 U3-1 C24-2
+     U1-2 U2-3 U2-5 C20-1 21-2 C22-1 C23-N U3-1 C24-2
      C25-2 U10-8 U10-23 U10-35 U10-47 C1-1 C2-1 C3-1 C4-1
      U11-2 U11-4 U12-3 R21-2 R23-1 U16-3 U16-9 U16-14 U16-16
      U16-19 U16-23 U16-29 U16-48 U17-2 U4-1 U4-7 U4-10 U4-16
      SW2-1 R24-1 U13-4 R25-2 R26-2 R28-1 R29-1 R30-1 R31-2
      C5-1 C6-2 C7-1 C8-1 U9-1 C12-1 C13-1 R49-1 C14-1
-     U20-8 D20-"-" D21-"-" D22-"-" D23-"-" J5-2 U21-1 U21-8 D27-A
-     D28-A Q8-E Q11-E D29-A))
+     U20-8 J5-2 U21-1 U21-8 D29-A D20-C D21-C D22-C D23-C
+     Q10-1 Q11-1 D27-A D28-A))
   (net GND_SIGNAL
     (property 
      (nettype S))
@@ -4702,7 +4848,7 @@
      U6-3
     (property 
      (FLOAT Error))
-     C15-2 C9-2 TP1-1 U8-3 C10-2 C11-2 D16-C D19-3))
+     C15-N C9-N TP1-1 U8-3 C10-N C11-N D31-C D33-C))
   (net L298_ENAA
     (property 
      (nettype P)
@@ -4768,13 +4914,13 @@
      (nettype P)
      (netdir 1))
    (pins
-     J5-10 D25-A D28-K Q8-C Q9-E))
+     J5-10 Q8-1 Q10-3 D25-A D28-C))
   (net MOTOR_DRIVE2
     (property 
      (nettype P)
      (netdir 1))
    (pins
-     J5-8 D26-A D27-K Q10-E Q11-C))
+     J5-8 Q9-1 Q11-3 D26-A D27-C))
   (net N00657
    (pins
      U2-2 L1-1 D29-C))
@@ -4834,22 +4980,16 @@
      T1-1 J8-2))
   (net N02585
    (pins
-     T1-3 D18-5))
+     T1-3 D30-A))
   (net N02589
    (pins
-     T1-4 D19-8))
+     T1-4 D31-A))
   (net N02593
    (pins
      U10-6 Y2-1 C4-2))
   (net N02607
    (pins
      U10-5 Y2-2 C3-2))
-  (net N02650
-   (pins
-     U6-1
-    (property 
-     (FLOAT Error))
-     C15-1 D18-1))
   (net N02662
    (pins
      U10-4 Y1-1 C2-2))
@@ -4879,13 +5019,13 @@
      U12-5 Q3-3))
   (net N04921
    (pins
-     U8-1 C10-1 D17-C))
+     U8-1 C10-P D32-C))
   (net N05120
    (pins
-     T2-4 D16-A))
+     T2-4 D33-A))
   (net N05162
    (pins
-     T2-3 D17-A))
+     T2-3 D32-A))
   (net N06245
    (pins
      U9-3 R44-1))
@@ -4897,13 +5037,10 @@
      U9-2 U9-6 R43-2 C13-2))
   (net N07062
    (pins
-     R43-1 D15-A))
+     R43-1 D35-A))
   (net N07069
    (pins
-     R43-3 D14-K))
-  (net N07076
-   (pins
-     U9-7 R50-2 D14-A D15-K))
+     R43-3 D34-C))
   (net N07575
    (pins
      U4-9 R45-1))
@@ -4954,7 +5091,7 @@
      U16-24 R32-1))
   (net N12297
    (pins
-     R32-2 D20-+))
+     R32-2 D20-A))
   (net N12388
    (pins
      U16-20 C6-1))
@@ -4981,19 +5118,19 @@
      U16-25 R38-1))
   (net N14271
    (pins
-     R38-2 D21-+))
+     R38-2 D21-A))
   (net N14373
    (pins
      U16-26 R39-1))
   (net N14393
    (pins
-     R39-2 D22-+))
+     R39-2 D22-A))
   (net N14498
    (pins
      U16-27 R40-1))
   (net N14518
    (pins
-     R40-2 D23-+))
+     R40-2 D23-A))
   (net N15215
    (pins
      U16-30 R41-1 R42-2))
@@ -5014,28 +5151,28 @@
      U20-15 R54-2))
   (net N19104
    (pins
-     D9-+ R44-2))
+     R44-2 D9-A))
   (net N57924
    (pins
-     Q11-B R54-1))
+     R54-1 Q11-2))
   (net N57928
    (pins
-     Q10-B R55-1))
+     R55-1 Q9-2))
   (net N58412
    (pins
-     Q8-B R53-2))
+     R53-2 Q10-2))
   (net N58416
    (pins
      U20-2 R53-1))
   (net N58439
    (pins
-     Q9-B R52-2))
+     R52-2 Q8-2))
   (net NE555_OUT
     (property 
      (nettype P)
      (netdir 1))
    (pins
-     D9-"-" J5-20))
+     J5-20 D9-C))
   (net PA14
     (property 
      (nettype P)

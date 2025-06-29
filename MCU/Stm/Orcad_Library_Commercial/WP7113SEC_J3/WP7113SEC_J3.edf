@@ -1,0 +1,245 @@
+
+(EDIF
+  (rename WP7113SECJ3 "WP7113SECJ3")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 03 23 10 56 38)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename WP7113SECJ3 "WP7113SECJ3")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename WP7113SECJ3 "WP7113SECJ3")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename VALUE "Value") (string "WP7113SECJ3"))
+          (port
+            (rename A "A")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "A")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename C "C")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "C")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -5000) (pt 40000 13499)))
+            (portImplementation
+              (name C
+                (display PINNAME
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt -20000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 0)
+                    (pt -20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name A
+                (display PINNAME
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt 30000 0))
+                )
+              )
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 36062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 40000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 40000 0)
+                    (pt 30000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -5000) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 10000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -5000) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 0) (pt 0 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -5000) (pt 10000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 10000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7000 8000) (pt 1500 13499)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 7500) (pt -3000 13000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -8011 16019))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -8015 -15031))
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 1500 13499)
+                  (pt 5000 12000)
+                  (pt 3000 10000)
+                )
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt -3000 13000)
+                  (pt 500 11500)
+                  (pt -1500 9500)
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 0) (pt 0 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 30000 0)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "LED_WP7113SECJ3"))
+            (property
+              (rename SnapEDA_Link "SnapEDA_Link")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+                        
+                            Red 625nm LED Indication - Discrete 2.2V Radial
+                        
+                    "))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "Radial Kingbright"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Kingbright"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "WP7113SEC/J3"))
+            )
+            (property
+              (rename Check_prices "Check_prices")
+              (string
+              (stringDisplay "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)
