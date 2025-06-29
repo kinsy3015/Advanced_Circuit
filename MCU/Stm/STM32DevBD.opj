@@ -182,7 +182,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1464 78 390")
-        (Scroll "-184 0")
+        (Scroll "-184 130")
         (Zoom "100"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "STM32C031")
