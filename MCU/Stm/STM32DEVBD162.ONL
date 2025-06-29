@@ -1,10 +1,10 @@
 (PCB STM32DEVBD162
  (description
-  (timeStamp "2025 06 28 14 56 57")
+  (timeStamp "2025 06 29 09 13 59")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
-  (date "Saturday, June 28, 2025")
+  (date "Sunday, June 29, 2025")
   (document "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN")
   (revision "1.0")
   (organization "")
@@ -26,6 +26,14 @@
      (Implementation POT)
      (SET 0.5)
      (Value 5K))))
+  (component 1N5824
+   (place D29
+    (property 
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1898W129L762D1143)
+     (timestamp 00005AC7)
+     ("Source Package" 1N5824)
+     (Value 1N5824))))
   (component TJA1051_0
    (place U17
     (property 
@@ -40,25 +48,6 @@
      (timestamp 00000065)
      ("Source Package" LM2596)
      (Value LM2596))))
-  (component FUSE
-   (place U18
-    (property 
-     (CURRENT 1)
-     ("PCB Footprint" 696101000002)
-     (PSpiceTemplate "X^@REFDES %1 %2 @MODEL PARAMS:\\n+ CURRENT=@CURRENT")
-     (timestamp 000009D6)
-     ("Source Package" FUSE)
-     (Implementation FUSE)
-     (Value FUSE)))
-   (place U19
-    (property 
-     (CURRENT 1)
-     ("PCB Footprint" 696101000002)
-     (PSpiceTemplate "X^@REFDES %1 %2 @MODEL PARAMS:\\n+ CURRENT=@CURRENT")
-     (timestamp 00001210)
-     ("Source Package" FUSE)
-     (Implementation FUSE)
-     (Value FUSE))))
   (component CD4049
    (place U20
     (property 
@@ -108,13 +97,13 @@
      (timestamp 00001023)
      ("Source Package" "NPN BCE")
      (Value "NPN BCE"))))
-  (component "DIODE SCHOTTKY"
-   (place D1
+  (component TRANSFORMER_0
+   (place T1
     (property 
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00000233)
-     ("Source Package" "DIODE SCHOTTKY")
-     (Value 1N5824))))
+     ("PCB Footprint" "9-0-9")
+     (timestamp 00003BC5)
+     ("Source Package" TRANSFORMER_0)
+     (Value "9 - 0 - 9"))))
   (component LM7805C
    (place U6
     (property 
@@ -124,6 +113,13 @@
      ("Source Package" LM7805C)
      (Implementation LM7805C)
      (Value LM7805C))))
+  (component TRANSFORMER_1
+   (place T2
+    (property 
+     ("PCB Footprint" "9-0-9")
+     (timestamp 000011D8)
+     ("Source Package" TRANSFORMER_1)
+     (Value "30 - 0 - 30"))))
   (component "CONN TRBLK 2"
    (place J3
     (property 
@@ -173,6 +169,21 @@
      (timestamp 00000255)
      ("Source Package" L)
      (Value 33uH))))
+  (component "WR-FSH"
+   (place J8
+    (property 
+     (OriginalSymbolOrigin "(-20000,10000)")
+     ("PCB Footprint" 696101000002)
+     (timestamp 00005F6C)
+     ("Source Package" "WR-FSH")
+     (Value "WR-FSH")))
+   (place J9
+    (property 
+     (OriginalSymbolOrigin "(-20000,10000)")
+     ("PCB Footprint" 696101000002)
+     (timestamp 00005F2A)
+     ("Source Package" "WR-FSH")
+     (Value "WR-FSH"))))
   (component STM32F303C8T7_LQFP48
    (place U10
     (property 
@@ -207,6 +218,20 @@
      (timestamp 0000142C)
      ("Source Package" NTC)
      (Value NTC))))
+  (component 1N4001RLG_4
+   (place D18
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+     (MP 1N4001RLG)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 00005972)
+     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+     ("Source Package" 1N4001RLG_4)
+     (MF "ON Semiconductor")
+     (Package "DO-41 onsemi")
+     (Value 1N4001RLG)
+     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        "))))
   (component NE555
    (place U9
     (property 
@@ -280,6 +305,47 @@
      (Package "0603 Everlight Electronics")
      (Value "LED-1")
      (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  "))))
+  (component 1N4001RLG_5
+   (place D19
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+     (MP 1N4001RLG)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 000059BA)
+     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+     ("Source Package" 1N4001RLG_5)
+     (MF "ON Semiconductor")
+     (Package "DO-41 onsemi")
+     (Value 1N4001RLG)
+     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        "))))
+  (component 1N4001RLG
+   (place D16
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+     (MP 1N4001RLG)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 00005918)
+     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+     ("Source Package" 1N4001RLG)
+     (MF "ON Semiconductor")
+     (Package "DO-41 onsemi")
+     (Value 1N4001RLG)
+     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        ")))
+   (place D17
+    (property 
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+     (MP 1N4001RLG)
+     (OriginalSymbolOrigin "(-10000,10000)")
+     ("PCB Footprint" DIOAD1036W78L470D235)
+     (timestamp 00005928)
+     (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+     ("Source Package" 1N4001RLG)
+     (MF "ON Semiconductor")
+     (Package "DO-41 onsemi")
+     (Value 1N4001RLG)
+     (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG        "))))
   (component L298_1
    (place U21
     (property 
@@ -287,59 +353,6 @@
      (timestamp 0000BB91)
      ("Source Package" L298_1)
      (Value L298))))
-  (component 1N4001G
-   (place D10
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
-     (MP 1N4001G)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 000050AF)
-     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
-     ("Source Package" 1N4001G)
-     (MF "Taiwan Semiconductor")
-     (Package "DO-41-2 Taiwan Semiconductor")
-     (Value 1N4001G)
-     (Description "                                                    1A, 50V, Standard Rectifier                                            ")))
-   (place D11
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
-     (MP 1N4001G)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005103)
-     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
-     ("Source Package" 1N4001G)
-     (MF "Taiwan Semiconductor")
-     (Package "DO-41-2 Taiwan Semiconductor")
-     (Value 1N4001G)
-     (Description "                                                    1A, 50V, Standard Rectifier                                            ")))
-   (place D12
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
-     (MP 1N4001G)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 00005161)
-     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
-     ("Source Package" 1N4001G)
-     (MF "Taiwan Semiconductor")
-     (Package "DO-41-2 Taiwan Semiconductor")
-     (Value 1N4001G)
-     (Description "                                                    1A, 50V, Standard Rectifier                                            ")))
-   (place D13
-    (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
-     (MP 1N4001G)
-     (OriginalSymbolOrigin "(-10000,10000)")
-     ("PCB Footprint" DIOAD1036W78L470D235)
-     (timestamp 000051D1)
-     (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
-     ("Source Package" 1N4001G)
-     (MF "Taiwan Semiconductor")
-     (Package "DO-41-2 Taiwan Semiconductor")
-     (Value 1N4001G)
-     (Description "                                                    1A, 50V, Standard Rectifier                                            "))))
   (component 1N4148
    (place D25
     (property 
@@ -351,7 +364,7 @@
      (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
      (MF onsemi)
-     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Package DIOAD1036W78L470D235)
      (Value 1N4148)
      (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
    (place D26
@@ -364,7 +377,7 @@
      (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
      (MF onsemi)
-     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Package DIOAD1036W78L470D235)
      (Value 1N4148)
      (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
    (place D27
@@ -377,7 +390,7 @@
      (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
      (MF onsemi)
-     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Package DIOAD1036W78L470D235)
      (Value 1N4148)
      (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
    (place D28
@@ -390,7 +403,7 @@
      (Check_prices "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda")
      ("Source Package" 1N4148)
      (MF onsemi)
-     (Package "AXIAL LEAD-2 ON Semiconductor")
+     (Package DIOAD1036W78L470D235)
      (Value 1N4148)
      (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           ")))
    (place D14
@@ -419,19 +432,6 @@
      (Package "AXIAL LEAD-2 ON Semiconductor")
      (Value 1N4148)
      (Description "                                                    Diode Standard 75V 200mA Surface Mount SOD-523F                           "))))
-  (component TRANSFORMER
-   (place T1
-    (property 
-     ("PCB Footprint" "9-0-9")
-     (timestamp 00003BC5)
-     ("Source Package" TRANSFORMER)
-     (Value "9 - 0 - 9")))
-   (place T2
-    (property 
-     ("PCB Footprint" "9-0-9")
-     (timestamp 000011D8)
-     ("Source Package" TRANSFORMER)
-     (Value "30 - 0 - 30"))))
   (component R
    (place R25
     (property 
@@ -1049,6 +1049,34 @@
      (TC1 0)
      (POWER RMAX)
      (TC2 0)))
+   (place R52
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" RESC1608X50AL)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
+     (timestamp 0000E20B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R53
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" RESC1608X50AL)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
+     (timestamp 0000E21B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R21
     (property 
      (VOLTAGE RVMAX)
@@ -1063,12 +1091,40 @@
      (TC1 0)
      (POWER RMAX)
      (TC2 0)))
+   (place R54
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" RESC1608X50AL)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
+     (timestamp 0000E23B)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R22
     (property 
      (VOLTAGE RVMAX)
      ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 0000A5DD)
+     (DIST FLAT)
+     (SLOPE RSMAX)
+     ("Source Package" R)
+     (Value 1k)
+     (MAX_TEMP RTMAX)
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
+   (place R55
+    (property 
+     (VOLTAGE RVMAX)
+     ("PCB Footprint" RESC1608X50AL)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
+     (timestamp 0000E22B)
      (DIST FLAT)
      (SLOPE RSMAX)
      ("Source Package" R)
@@ -1564,7 +1620,7 @@
      (Number B)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N18604)
+     ("Net Name" N58412)
      (Order 0)
      ("Is No Connect" False)))
    (pin 999 C
@@ -2232,33 +2288,6 @@
      ("Net Name" 5V)
      (Order 1)
      ("Is No Connect" False))))
-  (image FUSE
-   (property 
-    (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANL_MISC.OLB)
-    (PSpiceTemplate "X^@REFDES %1 %2 @MODEL PARAMS:\\n+ CURRENT=@CURRENT")
-    (CURRENT 1))
-   (pin 999 1
-    (property 
-     (pinname 1)
-     (pintype 4)
-     (Name 1)
-     (Number 1)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" PWR_IN1)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 2
-    (property 
-     (pinname 2)
-     (pintype 4)
-     (Name 2)
-     (Number 2)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02528)
-     (Order 1)
-     ("Is No Connect" False))))
   (image NTC
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
@@ -2282,6 +2311,33 @@
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" ADC1_IN2)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 1N5824
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N5824\\1N5824.OLB)
+    (OriginalSymbolOrigin "(-10000,10000)")
+    ("PCB Footprint" DIOAD1898W129L762D1143))
+   (pin 999 A
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number A)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 C
+    (property 
+     (pinname K)
+     (pintype 4)
+     (Name K)
+     (Number C)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00657)
      (Order 1)
      ("Is No Connect" False))))
   (image C
@@ -2651,7 +2707,7 @@
      (Number 2)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N18604)
+     ("Net Name" N58416)
      (Order 1)
      ("Is No Connect" False)))
    (pin 999 3
@@ -2662,7 +2718,7 @@
      (Number 3)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N18111)
+     ("Net Name" N18596)
      (Order 2)
      ("Is No Connect" False)))
    (pin 999 4
@@ -2774,7 +2830,7 @@
      (Number 14)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N18115)
+     ("Net Name" N18616)
      (Order 13)
      ("Is No Connect" False)))
    (pin 999 15
@@ -3322,39 +3378,6 @@
      (Type Passive)
      (Order 7)
      ("Is No Connect" True))))
-  (image 1N4001G
-   (property 
-    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4001G\\1N4001G.OLB)
-    (OriginalSymbolOrigin "(-10000,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=eda")
-    (MP 1N4001G)
-    (MF "Taiwan Semiconductor")
-    (Package "DO-41-2 Taiwan Semiconductor")
-    (Description "                                                    1A, 50V, Standard Rectifier                                            ")
-    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001G/taiwan/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD1036W78L470D235))
-   (pin 999 A
-    (property 
-     (pinname A)
-     (pintype 4)
-     (Name A)
-     (Number A)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02585)
-     (Order 0)
-     ("Is No Connect" False)))
-   (pin 999 C
-    (property 
-     (pinname K)
-     (pintype 4)
-     (Name K)
-     (Number C)
-     ("Swap Id" "-1")
-     (Type Passive)
-     ("Net Name" N02650)
-     (Order 1)
-     ("Is No Connect" False))))
   (image "CONN TRBLK 2"
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
@@ -3604,29 +3627,130 @@
      ("Net Name" NE555_OUT)
      (Order 19)
      ("Is No Connect" False))))
-  (image "DIODE SCHOTTKY"
+  (image "WR-FSH"
    (property 
-    (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\696101000002\\696101000002.OLB)
+    (OriginalSymbolOrigin "(-20000,10000)")
+    ("PCB Footprint" 696101000002))
    (pin 999 1
     (property 
-     (pinname ANODE)
+     (pinname 1)
      (pintype 4)
-     (Name ANODE)
+     (Name 1)
      (Number 1)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" GND)
+     ("Net Name" PWR_IN1)
      (Order 0)
      ("Is No Connect" False)))
    (pin 999 2
     (property 
-     (pinname CATHODE)
+     (pinname 2)
      (pintype 4)
-     (Name CATHODE)
+     (Name 2)
      (Number 2)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N00657)
+     ("Net Name" N02528)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 1N4001RLG
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4001RLG\\1N4001RLG.OLB)
+    (OriginalSymbolOrigin "(-10000,10000)")
+    (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+    (MP 1N4001RLG)
+    (MF "ON Semiconductor")
+    (Package "DO-41 onsemi")
+    (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+    ("PCB Footprint" DIOAD953W69L521D272))
+   (pin 999 A
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number A)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N05120)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 C
+    (property 
+     (pinname C)
+     (pintype 4)
+     (Name C)
+     (Number C)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 1N4001RLG_4
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
+    (OriginalSymbolOrigin "(-10000,10000)")
+    (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+    (MP 1N4001RLG)
+    (MF "ON Semiconductor")
+    (Package "DO-41 onsemi")
+    (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+    ("PCB Footprint" DIOAD953W69L521D272))
+   (pin 999 5
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02585)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname C)
+     (pintype 4)
+     (Name C)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02650)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 1N4001RLG_5
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
+    (OriginalSymbolOrigin "(-10000,10000)")
+    (Check_prices "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=eda")
+    (MP 1N4001RLG)
+    (MF "ON Semiconductor")
+    (Package "DO-41 onsemi")
+    (Description "                                                    Diode Switching 50V 1A Standard DO-41 | ON Semiconductor 1N4001RLG                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/1N4001RLG/Onsemi/view-part/?ref=snap")
+    ("PCB Footprint" DIOAD953W69L521D272))
+   (pin 999 8
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02589)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname C)
+     (pintype 4)
+     (Name C)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
      (Order 1)
      ("Is No Connect" False))))
   (image "SW PUSHBUTTON"
@@ -3654,9 +3778,9 @@
      ("Net Name" N03059)
      (Order 1)
      ("Is No Connect" False))))
-  (image TRANSFORMER
+  (image TRANSFORMER_0
    (property 
-    (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
    (pin 999 1
     (property 
      (pinname 1)
@@ -3668,16 +3792,27 @@
      ("Net Name" N02528)
      (Order 0)
      ("Is No Connect" False)))
-   (pin 999 5
+   (pin 999 3
     (property 
-     (pinname 5)
+     (pinname 3)
      (pintype 4)
-     (Name 5)
-     (Number 5)
+     (Name 3)
+     (Number 3)
      ("Swap Id" "-1")
      (Type Passive)
      ("Net Name" N02585)
      (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PWR_IN2)
+     (Order 2)
      ("Is No Connect" False)))
    (pin 999 4
     (property 
@@ -3687,18 +3822,54 @@
      (Number 4)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" PWR_IN2)
-     (Order 2)
-     ("Is No Connect" False)))
-   (pin 999 8
+     ("Net Name" N02589)
+     (Order 3)
+     ("Is No Connect" False))))
+  (image TRANSFORMER_1
+   (property 
+    (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN))
+   (pin 999 1
     (property 
-     (pinname 8)
+     (pinname 1)
      (pintype 4)
-     (Name 8)
-     (Number 8)
+     (Name 1)
+     (Number 1)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N02589)
+     ("Net Name" N11406)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N05162)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PWR_IN4)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N05120)
      (Order 3)
      ("Is No Connect" False))))
   (image "NPN BCE"
@@ -4516,14 +4687,14 @@
     (property 
      (nettype S))
    (pins
-     U1-2 U2-3 U2-5 C20-1 21-2 C22-1 D1-1 C23-1 U3-1
-     C24-2 C25-2 U10-8 U10-23 U10-35 U10-47 C1-1 C2-1 C3-1
-     C4-1 U11-2 U11-4 U12-3 R21-2 R23-1 U16-3 U16-9 U16-14
-     U16-16 U16-19 U16-23 U16-29 U16-48 U17-2 U4-1 U4-7 U4-10
-     U4-16 SW2-1 R24-1 U13-4 R25-2 R26-2 R28-1 R29-1 R30-1
-     R31-2 C5-1 C6-2 C7-1 C8-1 U9-1 C12-1 C13-1 R49-1
-     C14-1 U20-8 D20-"-" D21-"-" D22-"-" D23-"-" J5-2 U21-1 U21-8
-     D27-A D28-A Q8-E Q11-E))
+     U1-2 U2-3 U2-5 C20-1 21-2 C22-1 C23-1 U3-1 C24-2
+     C25-2 U10-8 U10-23 U10-35 U10-47 C1-1 C2-1 C3-1 C4-1
+     U11-2 U11-4 U12-3 R21-2 R23-1 U16-3 U16-9 U16-14 U16-16
+     U16-19 U16-23 U16-29 U16-48 U17-2 U4-1 U4-7 U4-10 U4-16
+     SW2-1 R24-1 U13-4 R25-2 R26-2 R28-1 R29-1 R30-1 R31-2
+     C5-1 C6-2 C7-1 C8-1 U9-1 C12-1 C13-1 R49-1 C14-1
+     U20-8 D20-"-" D21-"-" D22-"-" D23-"-" J5-2 U21-1 U21-8 D27-A
+     D28-A Q8-E Q11-E D29-A))
   (net GND_SIGNAL
     (property 
      (nettype S))
@@ -4531,7 +4702,7 @@
      U6-3
     (property 
      (FLOAT Error))
-     C15-2 C9-2 TP1-1 U8-3 C10-2 C11-2 D11-C D13-C))
+     C15-2 C9-2 TP1-1 U8-3 C10-2 C11-2 D16-C D19-3))
   (net L298_ENAA
     (property 
      (nettype P)
@@ -4606,7 +4777,7 @@
      J5-8 D26-A D27-K Q10-E Q11-C))
   (net N00657
    (pins
-     U2-2 D1-2 L1-1))
+     U2-2 L1-1 D29-C))
   (net N01820
    (pins
      U10-28 R17-1))
@@ -4660,13 +4831,13 @@
      U10-10 R1-1))
   (net N02528
    (pins
-     U18-2 T1-1))
+     T1-1 J8-2))
   (net N02585
    (pins
-     T1-5 D10-A))
+     T1-3 D18-5))
   (net N02589
    (pins
-     T1-8 D11-A))
+     T1-4 D19-8))
   (net N02593
    (pins
      U10-6 Y2-1 C4-2))
@@ -4678,7 +4849,7 @@
      U6-1
     (property 
      (FLOAT Error))
-     C15-1 D10-C))
+     C15-1 D18-1))
   (net N02662
    (pins
      U10-4 Y1-1 C2-2))
@@ -4708,13 +4879,13 @@
      U12-5 Q3-3))
   (net N04921
    (pins
-     U8-1 C10-1 D12-C))
+     U8-1 C10-1 D17-C))
   (net N05120
    (pins
-     T2-8 D13-A))
+     T2-4 D16-A))
   (net N05162
    (pins
-     T2-5 D12-A))
+     T2-3 D17-A))
   (net N06245
    (pins
      U9-3 R44-1))
@@ -4759,7 +4930,7 @@
      Q2-2 R27-1))
   (net N11406
    (pins
-     T2-1 U19-2))
+     T2-1 J9-2))
   (net N11554
    (pins
      U13-6 R30-2))
@@ -4832,21 +5003,33 @@
   (net N15236
    (pins
      U16-31 C7-2 Y3-1 R42-1))
-  (net N18111
+  (net N18596
    (pins
-     U20-3 Q9-B))
-  (net N18115
+     U20-3 R52-1))
+  (net N18616
    (pins
-     U20-14 Q10-B))
-  (net N18604
-   (pins
-     U20-2 Q8-B))
+     U20-14 R55-2))
   (net N18624
    (pins
-     U20-15 Q11-B))
+     U20-15 R54-2))
   (net N19104
    (pins
      D9-+ R44-2))
+  (net N57924
+   (pins
+     Q11-B R54-1))
+  (net N57928
+   (pins
+     Q10-B R55-1))
+  (net N58412
+   (pins
+     Q8-B R53-2))
+  (net N58416
+   (pins
+     U20-2 R53-1))
+  (net N58439
+   (pins
+     Q9-B R52-2))
   (net NE555_OUT
     (property 
      (nettype P)
@@ -4894,25 +5077,25 @@
      (nettype P)
      (netdir 1))
    (pins
-     U18-1 J3-2))
+     J3-2 J8-1))
   (net PWR_IN2
     (property 
      (nettype P)
      (netdir 1))
    (pins
-     J3-1 T1-4))
+     J3-1 T1-2))
   (net PWR_IN3
     (property 
      (nettype P)
      (netdir 1))
    (pins
-     U19-1 J4-2))
+     J4-2 J9-1))
   (net PWR_IN4
     (property 
      (nettype P)
      (netdir 1))
    (pins
-     T2-4 J4-1))
+     T2-2 J4-1))
   (net PW_OUT1
     (property 
      (nettype P)
