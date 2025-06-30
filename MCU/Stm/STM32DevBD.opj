@@ -160,22 +160,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "POWER")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "stm32f303c8")
-      (Path "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "STM32G491")
+      (Path "Design Resources" ".\stm32devbd162.dsn")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "POWER")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "stm32f303c8")
+      (Path "Design Resources" ".\stm32devbd162.dsn" "STM32G491")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "PSpice Resources")
-      (Select "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd162.dsn" "SCHEMATIC1"
-         "TOP"))
+      (Path "PSpice Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -215,12 +207,22 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1181 78 344")
-        (Scroll "-71 0")
-        (Zoom "94")
+        (Scroll "2 273")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "TOP")))
+      (Page "TOP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1155 130 535")
+        (Scroll "-3 40")
+        (Zoom "100")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD162.DSN")
+      (Schematic "stm32f303c8")
+      (Page "Analog")))
   (MPSSessionName "D")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\D\Advanced_Circuit\MCU\Stm\Orcad_Library_Commercial\2N3700")
