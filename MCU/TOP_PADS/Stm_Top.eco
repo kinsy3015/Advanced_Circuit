@@ -1,11 +1,20 @@
 *PADS-ECO-V9.4-MILS*
 *REMARK*  old file: D:\PADS Projects\ecogtmp0.asc
 *REMARK*  new file: D:\PADS Projects\ecogtmp1.asc
-*REMARK*  created by ECOGEN (Version 6.4v) on 2025-06-30 오전 1:54:21
+*REMARK*  created by ECOGEN (Version 6.4v) on 2025-06-30 오후 3:05:17
 *CHGPART*
-J5  61202021621  2X10_PINHEADER
-J6  61202021621  2X10_PINHEADER
-J7  61202021621  2X10_PINHEADER
+T1  9-0-9  9-0-9_PADS
+T2  9-0-9  9-0-9_PADS
+*RENNET*
+X00029  CUR_SENSE1
+*JOINNET*
++24V  24V
++5V  5V
+*NET*
+*SIGNAL*  3.3V
+TP2.1
+*SIGNAL*  CUR_SENSE1
+J5.6
 
-*REMARK*  Deleted pins: 0,  Added pins: 0
+*REMARK*  Deleted pins: 0,  Added pins: 2
 *END*
