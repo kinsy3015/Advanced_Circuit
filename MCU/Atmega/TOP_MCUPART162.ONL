@@ -1,6 +1,6 @@
 (PCB TOP_MCUPART162
  (description
-  (timeStamp "2025 07 01 18 19 22")
+  (timeStamp "2025 07 01 18 41 48")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
@@ -72,8 +72,8 @@
   (component SZMMSZ4689T1G_0
    (place D38
     (property 
-     (MP SZMMSZ4689T1G)
      (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
+     (MP SZMMSZ4689T1G)
      (OriginalSymbolOrigin "(0,-10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 0002BD7B)
@@ -139,8 +139,8 @@
      (MP "SRD-05VDC-SL-C")
      (OriginalSymbolOrigin "(-20000,20000)")
      ("PCB Footprint" "RELAY_SRD-05VDC-SL-C")
-     (Availability "Not in stock")
      (Price None)
+     (Availability "Not in stock")
      (timestamp 0002650C)
      ("Source Package" "SRD-05VDC-SL-C")
      (MF "Songle Relay")
@@ -150,8 +150,8 @@
   (component SZMMSZ4689T1G
    (place D35
     (property 
-     (MP SZMMSZ4689T1G)
      (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
+     (MP SZMMSZ4689T1G)
      (OriginalSymbolOrigin "(0,-10000)")
      ("PCB Footprint" DIO_SZMMSZ4689T1G)
      (timestamp 00027408)
@@ -163,8 +163,8 @@
      (Description "                                                    Zener Diode Single 5.1V 5PCT 500mW Automotive 2-Pin SOD-123 T/R                                            ")))
    (place D36
     (property 
-     (MP SZMMSZ4689T1G)
      (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
+     (MP SZMMSZ4689T1G)
      (OriginalSymbolOrigin "(0,-10000)")
      ("PCB Footprint" DIO_SZMMSZ4689T1G)
      (timestamp 00027454)
@@ -176,8 +176,8 @@
      (Description "                                                    Zener Diode Single 5.1V 5PCT 500mW Automotive 2-Pin SOD-123 T/R                                            ")))
    (place D37
     (property 
-     (MP SZMMSZ4689T1G)
      (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
+     (MP SZMMSZ4689T1G)
      (OriginalSymbolOrigin "(0,-10000)")
      ("PCB Footprint" DIO_SZMMSZ4689T1G)
      (timestamp 000274DD)
@@ -274,8 +274,8 @@
   (component 1N4004G
    (place D20
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (MP 1N4004G)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
      (timestamp 00025CA5)
@@ -287,8 +287,8 @@
      (Description "                                                    1A, 400V, Standard Rectifier                                            ")))
    (place D21
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (MP 1N4004G)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
      (timestamp 00025CDB)
@@ -300,8 +300,8 @@
      (Description "                                                    1A, 400V, Standard Rectifier                                            ")))
    (place D22
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (MP 1N4004G)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
      (timestamp 00025D61)
@@ -313,8 +313,8 @@
      (Description "                                                    1A, 400V, Standard Rectifier                                            ")))
    (place D23
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (MP 1N4004G)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
      (timestamp 00025D99)
@@ -326,8 +326,8 @@
      (Description "                                                    1A, 400V, Standard Rectifier                                            ")))
    (place D24
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (MP 1N4004G)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
      (timestamp 00025DCF)
@@ -339,8 +339,8 @@
      (Description "                                                    1A, 400V, Standard Rectifier                                            ")))
    (place D19
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (MP 1N4004G)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-10000,10000)")
      ("PCB Footprint" DIOAD1036W78L470D235)
      (timestamp 00025B20)
@@ -353,8 +353,8 @@
   (component "LED-1"
    (place D28
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (MP "19-217/R6C-AL1M2VY/3T")
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-5000,20000)")
      ("PCB Footprint" "LED-0603")
      (timestamp 000260AE)
@@ -366,8 +366,8 @@
      (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
    (place D29
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (MP "19-217/R6C-AL1M2VY/3T")
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-5000,20000)")
      ("PCB Footprint" "LED-0603")
      (timestamp 00026092)
@@ -379,8 +379,8 @@
      (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
    (place D30
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (MP "19-217/R6C-AL1M2VY/3T")
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-5000,20000)")
      ("PCB Footprint" "LED-0603")
      (timestamp 00026076)
@@ -392,8 +392,8 @@
      (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                  ")))
    (place D31
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (MP "19-217/R6C-AL1M2VY/3T")
+     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-5000,20000)")
      ("PCB Footprint" "LED-0603")
      (timestamp 00025F41)
@@ -461,10 +461,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R89
     (property 
      (VOLTAGE RVMAX)
@@ -475,10 +475,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R26
     (property 
      (VOLTAGE RVMAX)
@@ -489,10 +489,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R27
     (property 
      (VOLTAGE RVMAX)
@@ -503,10 +503,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R28
     (property 
      (VOLTAGE RVMAX)
@@ -517,10 +517,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R29
     (property 
      (VOLTAGE RVMAX)
@@ -531,10 +531,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R100
     (property 
      (VOLTAGE RVMAX)
@@ -545,10 +545,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R102
     (property 
      (VOLTAGE RVMAX)
@@ -559,10 +559,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R103
     (property 
      (VOLTAGE RVMAX)
@@ -573,10 +573,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R104
     (property 
      (VOLTAGE RVMAX)
@@ -587,10 +587,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R105
     (property 
      (VOLTAGE RVMAX)
@@ -601,10 +601,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R107
     (property 
      (VOLTAGE RVMAX)
@@ -615,10 +615,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R108
     (property 
      (VOLTAGE RVMAX)
@@ -629,10 +629,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R109
     (property 
      (VOLTAGE RVMAX)
@@ -643,10 +643,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R90
     (property 
      (VOLTAGE RVMAX)
@@ -657,10 +657,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R91
     (property 
      (VOLTAGE RVMAX)
@@ -671,10 +671,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R92
     (property 
      (VOLTAGE RVMAX)
@@ -685,10 +685,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R93
     (property 
      (VOLTAGE RVMAX)
@@ -699,10 +699,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R61
     (property 
      (VOLTAGE RVMAX)
@@ -713,10 +713,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R94
     (property 
      (VOLTAGE RVMAX)
@@ -727,10 +727,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R30
     (property 
      (VOLTAGE RVMAX)
@@ -741,10 +741,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R1
     (property 
      (VOLTAGE RVMAX)
@@ -755,10 +755,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R62
     (property 
      (VOLTAGE RVMAX)
@@ -769,10 +769,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R95
     (property 
      (VOLTAGE RVMAX)
@@ -783,10 +783,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R2
     (property 
      (VOLTAGE RVMAX)
@@ -797,10 +797,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R31
     (property 
      (VOLTAGE RVMAX)
@@ -811,10 +811,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R63
     (property 
      (VOLTAGE RVMAX)
@@ -825,10 +825,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R96
     (property 
      (VOLTAGE RVMAX)
@@ -839,10 +839,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R3
     (property 
      (VOLTAGE RVMAX)
@@ -853,10 +853,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R64
     (property 
      (VOLTAGE RVMAX)
@@ -867,10 +867,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R97
     (property 
      (VOLTAGE RVMAX)
@@ -881,10 +881,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R4
     (property 
      (VOLTAGE RVMAX)
@@ -895,10 +895,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R65
     (property 
      (VOLTAGE RVMAX)
@@ -909,10 +909,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R98
     (property 
      (VOLTAGE RVMAX)
@@ -923,10 +923,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R5
     (property 
      (VOLTAGE RVMAX)
@@ -937,10 +937,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R34
     (property 
      (VOLTAGE RVMAX)
@@ -951,10 +951,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R66
     (property 
      (VOLTAGE RVMAX)
@@ -965,10 +965,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value "12.4K, 1%")
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R99
     (property 
      (VOLTAGE RVMAX)
@@ -979,10 +979,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R6
     (property 
      (VOLTAGE RVMAX)
@@ -993,10 +993,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R68
     (property 
      (VOLTAGE RVMAX)
@@ -1007,10 +1007,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R7
     (property 
      (VOLTAGE RVMAX)
@@ -1021,10 +1021,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R8
     (property 
      (VOLTAGE RVMAX)
@@ -1035,10 +1035,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R37
     (property 
      (VOLTAGE RVMAX)
@@ -1049,10 +1049,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R9
     (property 
      (VOLTAGE RVMAX)
@@ -1063,10 +1063,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R38
     (property 
      (VOLTAGE RVMAX)
@@ -1077,10 +1077,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R39
     (property 
      (VOLTAGE RVMAX)
@@ -1091,10 +1091,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R110
     (property 
      (VOLTAGE RVMAX)
@@ -1105,10 +1105,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R111
     (property 
      (VOLTAGE RVMAX)
@@ -1119,10 +1119,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R112
     (property 
      (VOLTAGE RVMAX)
@@ -1133,10 +1133,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R113
     (property 
      (VOLTAGE RVMAX)
@@ -1147,10 +1147,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R114
     (property 
      (VOLTAGE RVMAX)
@@ -1161,10 +1161,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R115
     (property 
      (VOLTAGE RVMAX)
@@ -1175,10 +1175,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R116
     (property 
      (VOLTAGE RVMAX)
@@ -1189,10 +1189,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R70
     (property 
      (VOLTAGE RVMAX)
@@ -1203,10 +1203,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R71
     (property 
      (VOLTAGE RVMAX)
@@ -1217,10 +1217,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R40
     (property 
      (VOLTAGE RVMAX)
@@ -1231,10 +1231,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R73
     (property 
      (VOLTAGE RVMAX)
@@ -1245,10 +1245,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R41
     (property 
      (VOLTAGE RVMAX)
@@ -1259,10 +1259,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R10
     (property 
      (VOLTAGE RVMAX)
@@ -1273,10 +1273,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R42
     (property 
      (VOLTAGE RVMAX)
@@ -1287,10 +1287,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R11
     (property 
      (VOLTAGE RVMAX)
@@ -1301,10 +1301,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R43
     (property 
      (VOLTAGE RVMAX)
@@ -1315,10 +1315,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R76
     (property 
      (VOLTAGE RVMAX)
@@ -1329,10 +1329,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R12
     (property 
      (VOLTAGE RVMAX)
@@ -1343,10 +1343,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R44
     (property 
      (VOLTAGE RVMAX)
@@ -1357,10 +1357,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R77
     (property 
      (VOLTAGE RVMAX)
@@ -1371,10 +1371,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R13
     (property 
      (VOLTAGE RVMAX)
@@ -1385,10 +1385,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R45
     (property 
      (VOLTAGE RVMAX)
@@ -1399,10 +1399,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R78
     (property 
      (VOLTAGE RVMAX)
@@ -1413,10 +1413,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R46
     (property 
      (VOLTAGE RVMAX)
@@ -1427,10 +1427,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R79
     (property 
      (VOLTAGE RVMAX)
@@ -1441,10 +1441,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R47
     (property 
      (VOLTAGE RVMAX)
@@ -1455,10 +1455,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R19
     (property 
      (VOLTAGE RVMAX)
@@ -1469,10 +1469,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 10k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R80
     (property 
      (VOLTAGE RVMAX)
@@ -1483,10 +1483,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R81
     (property 
      (VOLTAGE RVMAX)
@@ -1497,10 +1497,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R82
     (property 
      (VOLTAGE RVMAX)
@@ -1511,10 +1511,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R83
     (property 
      (VOLTAGE RVMAX)
@@ -1525,10 +1525,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R20
     (property 
      (VOLTAGE RVMAX)
@@ -1539,10 +1539,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R84
     (property 
      (VOLTAGE RVMAX)
@@ -1553,10 +1553,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R21
     (property 
      (VOLTAGE RVMAX)
@@ -1567,10 +1567,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R85
     (property 
      (VOLTAGE RVMAX)
@@ -1581,10 +1581,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R22
     (property 
      (VOLTAGE RVMAX)
@@ -1595,10 +1595,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R86
     (property 
      (VOLTAGE RVMAX)
@@ -1609,10 +1609,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R23
     (property 
      (VOLTAGE RVMAX)
@@ -1623,10 +1623,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R24
     (property 
      (VOLTAGE RVMAX)
@@ -1637,10 +1637,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0)))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX)))
    (place R88
     (property 
      (VOLTAGE RVMAX)
@@ -1651,10 +1651,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (MAX_TEMP RTMAX)
      (TC1 0)
-     (POWER RMAX)
-     (TC2 0))))
+     (MAX_TEMP RTMAX)
+     (TC2 0)
+     (POWER RMAX))))
   (component "SW PUSHBUTTON"
    (place SW1
     (property 
@@ -1751,8 +1751,8 @@
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (KNEE CBMAX)
      (CURRENT CIMAX)
+     (KNEE CBMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0002BFEE)
@@ -1760,16 +1760,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 10uF)
-     (MAX_TEMP CTMAX)
      (TC1 0)
+     (MAX_TEMP CTMAX)
      (TC2 0)))
    (place C24
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (KNEE CBMAX)
      (CURRENT CIMAX)
+     (KNEE CBMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0002C057)
@@ -1777,16 +1777,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22uF)
-     (MAX_TEMP CTMAX)
      (TC1 0)
+     (MAX_TEMP CTMAX)
      (TC2 0)))
    (place C1
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000137F4)
@@ -1794,16 +1794,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 20pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C2
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013804)
@@ -1811,16 +1811,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 20pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C3
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013BC6)
@@ -1828,16 +1828,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C4
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013C06)
@@ -1845,16 +1845,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C5
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00013D50)
@@ -1862,16 +1862,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C6
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011AFB)
@@ -1879,16 +1879,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C7
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011B23)
@@ -1896,16 +1896,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C8
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011CE1)
@@ -1913,16 +1913,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 0.1uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C9
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011CF1)
@@ -1930,16 +1930,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 0.1uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C10
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011D35)
@@ -1947,16 +1947,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C11
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011D45)
@@ -1964,16 +1964,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C12
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011D8D)
@@ -1981,16 +1981,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 0.1uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C13
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011DF1)
@@ -1998,16 +1998,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 0.1uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C14
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011E9D)
@@ -2015,16 +2015,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 10nF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C15
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00011ED7)
@@ -2032,8 +2032,8 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 4.7uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C16
     (property 
@@ -2046,8 +2046,8 @@
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000179A9)
@@ -2055,8 +2055,8 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 1n)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C19
     (property 
@@ -2068,14 +2068,14 @@
   (image 1N4004G
    (property 
     (sourcelib "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\PADS_DECAL_CUSTOM\\1N4004G (1)\\1N4004G.OLB")
-    (OriginalSymbolOrigin "(-10000,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=eda")
-    (MP 1N4004G)
-    (MF "Taiwan Semiconductor")
-    (Package "DO-41-2 Taiwan Semiconductor")
-    (Description "                                                    1A, 400V, Standard Rectifier                                            ")
+    ("PCB Footprint" DIOAD1036W78L470D235)
     (SnapEDA_Link "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD1036W78L470D235))
+    (Description "                                                    1A, 400V, Standard Rectifier                                            ")
+    (Package "DO-41-2 Taiwan Semiconductor")
+    (MF "Taiwan Semiconductor")
+    (MP 1N4004G)
+    (Check_prices "https://www.snapeda.com/parts/1N4004G/taiwan/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(-10000,10000)"))
    (pin 999 A
     (property 
      (pinname A)
@@ -2101,14 +2101,14 @@
   (image R
    (property 
     (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (VOLTAGE RVMAX)
-    (TC2 0)
-    (TC1 0)
-    (SLOPE RSMAX)
-    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
-    (POWER RMAX)
+    (DIST FLAT)
     (MAX_TEMP RTMAX)
-    (DIST FLAT))
+    (POWER RMAX)
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+    (SLOPE RSMAX)
+    (TC1 0)
+    (TC2 0)
+    (VOLTAGE RVMAX))
    (pin 999 2
     (property 
      (pinname 2)
@@ -2785,14 +2785,14 @@
   (image "LED-1"
    (property 
     (sourcelib "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\ORCAD_LIBRARY\\LED-SMD-RED-DIFFUSED(0603)\\LED-SMD-RED-DIFFUSED0603.OLB")
-    (OriginalSymbolOrigin "(-5000,20000)")
-    (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
-    (MP "19-217/R6C-AL1M2VY/3T")
-    (MF "Everlight Electronics")
-    (Package "0603 Everlight Electronics")
-    (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                                            ")
+    ("PCB Footprint" "LED-0603")
     (SnapEDA_Link "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap")
-    ("PCB Footprint" "LED-0603"))
+    (Description "                                                    Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)                                            ")
+    (Package "0603 Everlight Electronics")
+    (MF "Everlight Electronics")
+    (MP "19-217/R6C-AL1M2VY/3T")
+    (Check_prices "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(-5000,20000)"))
    (pin 999 +
     (property 
      (pinname +)
@@ -2843,17 +2843,17 @@
   (image C
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (TC2 0)
-    (TC1 0)
-    (DIST FLAT)
-    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
-    (VOLTAGE CMAX)
-    (CURRENT CIMAX)
-    (KNEE CBMAX)
-    (SLOPE CSMAX)
-    (MAX_TEMP CTMAX)
+    (VC2 0)
     (VC1 0)
-    (VC2 0))
+    (MAX_TEMP CTMAX)
+    (SLOPE CSMAX)
+    (KNEE CBMAX)
+    (CURRENT CIMAX)
+    (VOLTAGE CMAX)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+    (DIST FLAT)
+    (TC1 0)
+    (TC2 0))
    (pin 999 1
     (property 
      (pinname 1)
@@ -3856,14 +3856,14 @@
   (image L
    (property 
     (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (DIST FLAT)
-    (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 IL1=@IL1 IL2=@IL2|")
-    (CURRENT LMAX)
-    (DIELECTRIC DSMAX)
-    (IL1 0)
-    (IL2 0)
+    (TC2 0)
     (TC1 0)
-    (TC2 0))
+    (IL2 0)
+    (IL1 0)
+    (DIELECTRIC DSMAX)
+    (CURRENT LMAX)
+    (PSpiceTemplate "L^@REFDES %1 %2 ?TOLERANCE|L^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model l^@REFDES IND L=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 IL1=@IL1 IL2=@IL2|")
+    (DIST FLAT))
    (pin 999 1
     (property 
      (pinname 1)
@@ -4503,14 +4503,14 @@
   (image SZMMSZ4689T1G
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\ORCAD_LIBRARY\\SZMMSZ4689T1G\\SZMMSZ4689T1G.OLB)
-    ("PCB Footprint" DIO_SZMMSZ4689T1G)
-    (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
-    (Description "                                                    Zener Diode Single 5.1V 5PCT 500mW Automotive 2-Pin SOD-123 T/R                                            ")
-    (Package "SOD-123-2 ON Semiconductor")
-    (MF onsemi)
-    (MP SZMMSZ4689T1G)
+    (OriginalSymbolOrigin "(0,-10000)")
     (Check_prices "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=eda")
-    (OriginalSymbolOrigin "(0,-10000)"))
+    (MP SZMMSZ4689T1G)
+    (MF onsemi)
+    (Package "SOD-123-2 ON Semiconductor")
+    (Description "                                                    Zener Diode Single 5.1V 5PCT 500mW Automotive 2-Pin SOD-123 T/R                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
+    ("PCB Footprint" DIO_SZMMSZ4689T1G))
    (pin 999 1
     (property 
      (pinname A)
@@ -4536,14 +4536,14 @@
   (image SZMMSZ4689T1G_0
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\TOP_MCUPART162.DSN)
-    ("PCB Footprint" DIO_SZMMSZ4689T1G)
-    (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
-    (Description "                                                    Zener Diode Single 5.1V 5PCT 500mW Automotive 2-Pin SOD-123 T/R                                            ")
-    (Package "SOD-123-2 ON Semiconductor")
-    (MF onsemi)
-    (MP SZMMSZ4689T1G)
+    (OriginalSymbolOrigin "(0,-10000)")
     (Check_prices "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=eda")
-    (OriginalSymbolOrigin "(0,-10000)"))
+    (MP SZMMSZ4689T1G)
+    (MF onsemi)
+    (Package "SOD-123-2 ON Semiconductor")
+    (Description "                                                    Zener Diode Single 5.1V 5PCT 500mW Automotive 2-Pin SOD-123 T/R                                            ")
+    (SnapEDA_Link "https://www.snapeda.com/parts/SZMMSZ4689T1G/Onsemi/view-part/?ref=snap")
+    ("PCB Footprint" DIO_SZMMSZ4689T1G))
    (pin 999 A
     (property 
      (pinname A)
@@ -5133,7 +5133,7 @@
      (Number 3)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" VDD)
+     ("Net Name" VDDA)
      (Order 2)
      ("Is No Connect" False))))
   (image 4Pinheader
@@ -5521,14 +5521,14 @@
   (image "SRD-05VDC-SL-C"
    (property 
     (sourcelib "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\ORCAD_LIBRARY\\SRD-05VDC-SL-C\\SRD-05VDC-SL-C.OLB")
-    (OriginalSymbolOrigin "(-20000,20000)")
-    (Price None)
-    (MP "SRD-05VDC-SL-C")
-    (Package "NON STANDARD-5 Songle Relay")
-    (Availability "Not in stock")
-    (MF "Songle Relay")
+    ("PCB Footprint" "RELAY_SRD-05VDC-SL-C")
     (Description "5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi")
-    ("PCB Footprint" "RELAY_SRD-05VDC-SL-C"))
+    (MF "Songle Relay")
+    (Availability "Not in stock")
+    (Package "NON STANDARD-5 Songle Relay")
+    (MP "SRD-05VDC-SL-C")
+    (Price None)
+    (OriginalSymbolOrigin "(-20000,20000)"))
    (pin 999 A2
     (property 
      (pinname A2)
@@ -5648,8 +5648,7 @@
     (property 
      (nettype S))
    (pins
-     R12-2 R11-2 U9-28 R13-2 R8-2 R9-2 R10-2 Q1-3 U23-2
-     C24-2))
+     R12-2 R11-2 U9-28 R13-2 R8-2 R9-2 R10-2 U23-2 C24-2))
   (net 5V
     (property 
      (nettype S)
@@ -6354,6 +6353,11 @@
      ("BiasValue Current" "-358.9uA")
      (FLOAT Error))
      U1-59))
+  (net VDDA
+    (property 
+     (nettype S))
+   (pins
+     Q1-3))
   (net W5500_CS
     (property 
      (nettype P)
