@@ -1,10 +1,10 @@
 (PCB STM32DEVBD162
  (description
-  (timeStamp "2025 06 30 18 59 28")
+  (timeStamp "2025 07 01 18 22 03")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
-  (date "Tuesday, July 01, 2025")
+  (date "Wednesday, July 02, 2025")
   (document "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN")
   (revision "1.0")
   (organization "")
@@ -37,8 +37,8 @@
   (component D
    (place D25
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 0000F48D)
@@ -50,8 +50,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D26
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 0000F4B1)
@@ -63,8 +63,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D27
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 0000F4C5)
@@ -76,8 +76,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D28
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 0000F4D9)
@@ -89,8 +89,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D30
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" DIOM5226X220N)
      (timestamp 0000623E)
@@ -102,8 +102,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D31
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" DIOM5226X220N)
      (timestamp 00006278)
@@ -115,8 +115,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D32
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" DIOM5226X220N)
      (timestamp 000062F6)
@@ -128,8 +128,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D33
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" DIOM5226X220N)
      (timestamp 0000630A)
@@ -141,8 +141,8 @@
      (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")))
    (place D35
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 00006719)
@@ -303,8 +303,8 @@
   (component D_2
    (place D34
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (MP 1N4001)
+     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,10000)")
      ("PCB Footprint" SOD3715X135N)
      (timestamp 00006490)
@@ -332,8 +332,8 @@
   (component NPN
    (place Q8
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,30000)")
      ("PCB Footprint" "SOT95P237X111-3N")
      (timestamp 0000F258)
@@ -345,8 +345,8 @@
      (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")))
    (place Q9
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,30000)")
      ("PCB Footprint" "SOT95P237X111-3N")
      (timestamp 0000F276)
@@ -358,8 +358,8 @@
      (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")))
    (place Q10
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,30000)")
      ("PCB Footprint" "SOT95P237X111-3N")
      (timestamp 0000F294)
@@ -371,8 +371,8 @@
      (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")))
    (place Q11
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (MP 2N3700)
+     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
      (OriginalSymbolOrigin "(0,30000)")
      ("PCB Footprint" "SOT95P237X111-3N")
      (timestamp 0000F2B2)
@@ -451,8 +451,8 @@
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPAE430X565N)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0000026F)
@@ -460,14 +460,14 @@
      (SLOPE CSMAX)
      ("Source Package" C_9)
      (Value 220uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0))))
   (component WP7113SECJ3_0
    (place D20
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-20000,20000)")
      ("PCB Footprint" LEDC1608X60M)
      (timestamp 0000EAD2)
@@ -479,8 +479,8 @@
      (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           ")))
    (place D21
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-20000,20000)")
      ("PCB Footprint" LEDC1608X60M)
      (timestamp 0000EE17)
@@ -492,8 +492,8 @@
      (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           ")))
    (place D22
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-20000,20000)")
      ("PCB Footprint" LEDC1608X60M)
      (timestamp 0000EE31)
@@ -505,8 +505,8 @@
      (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                           ")))
    (place D23
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-20000,20000)")
      ("PCB Footprint" LEDC1608X60M)
      (timestamp 0000EE4B)
@@ -527,10 +527,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R26
     (property 
      (VOLTAGE RVMAX)
@@ -541,10 +541,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R27
     (property 
      (VOLTAGE RVMAX)
@@ -555,10 +555,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R28
     (property 
      (VOLTAGE RVMAX)
@@ -569,10 +569,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R29
     (property 
      (VOLTAGE RVMAX)
@@ -583,10 +583,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R30
     (property 
      (VOLTAGE RVMAX)
@@ -597,10 +597,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R1
     (property 
      (VOLTAGE RVMAX)
@@ -611,10 +611,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R31
     (property 
      (VOLTAGE RVMAX)
@@ -625,10 +625,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R2
     (property 
      (VOLTAGE RVMAX)
@@ -639,10 +639,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R32
     (property 
      (VOLTAGE RVMAX)
@@ -653,10 +653,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R3
     (property 
      (VOLTAGE RVMAX)
@@ -667,10 +667,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R33
     (property 
      (VOLTAGE RVMAX)
@@ -681,10 +681,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R4
     (property 
      (VOLTAGE RVMAX)
@@ -695,10 +695,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R34
     (property 
      (VOLTAGE RVMAX)
@@ -709,10 +709,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R5
     (property 
      (VOLTAGE RVMAX)
@@ -723,10 +723,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R35
     (property 
      (VOLTAGE RVMAX)
@@ -737,10 +737,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R6
     (property 
      (VOLTAGE RVMAX)
@@ -751,10 +751,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R36
     (property 
      (VOLTAGE RVMAX)
@@ -765,10 +765,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R7
     (property 
      (VOLTAGE RVMAX)
@@ -779,10 +779,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 20k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R37
     (property 
      (VOLTAGE RVMAX)
@@ -793,10 +793,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R8
     (property 
      (VOLTAGE RVMAX)
@@ -807,10 +807,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 20k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R38
     (property 
      (VOLTAGE RVMAX)
@@ -821,10 +821,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R9
     (property 
      (VOLTAGE RVMAX)
@@ -835,10 +835,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R39
     (property 
      (VOLTAGE RVMAX)
@@ -849,10 +849,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R40
     (property 
      (VOLTAGE RVMAX)
@@ -863,10 +863,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R41
     (property 
      (VOLTAGE RVMAX)
@@ -877,10 +877,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R42
     (property 
      (VOLTAGE RVMAX)
@@ -891,10 +891,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R10
     (property 
      (VOLTAGE RVMAX)
@@ -905,10 +905,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R11
     (property 
      (VOLTAGE RVMAX)
@@ -919,10 +919,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R12
     (property 
      (VOLTAGE RVMAX)
@@ -933,10 +933,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R44
     (property 
      (VOLTAGE RVMAX)
@@ -947,10 +947,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R13
     (property 
      (VOLTAGE RVMAX)
@@ -961,10 +961,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R45
     (property 
      (VOLTAGE RVMAX)
@@ -975,10 +975,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R14
     (property 
      (VOLTAGE RVMAX)
@@ -989,10 +989,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R46
     (property 
      (VOLTAGE RVMAX)
@@ -1003,10 +1003,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R15
     (property 
      (VOLTAGE RVMAX)
@@ -1017,10 +1017,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R47
     (property 
      (VOLTAGE RVMAX)
@@ -1031,10 +1031,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R16
     (property 
      (VOLTAGE RVMAX)
@@ -1045,10 +1045,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R48
     (property 
      (VOLTAGE RVMAX)
@@ -1059,10 +1059,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R17
     (property 
      (VOLTAGE RVMAX)
@@ -1073,10 +1073,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R49
     (property 
      (VOLTAGE RVMAX)
@@ -1087,10 +1087,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R18
     (property 
      (VOLTAGE RVMAX)
@@ -1101,10 +1101,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R19
     (property 
      (VOLTAGE RVMAX)
@@ -1115,10 +1115,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R50
     (property 
      (VOLTAGE RVMAX)
@@ -1129,10 +1129,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R52
     (property 
      (VOLTAGE RVMAX)
@@ -1143,10 +1143,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R53
     (property 
      (VOLTAGE RVMAX)
@@ -1157,10 +1157,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R21
     (property 
      (VOLTAGE RVMAX)
@@ -1171,10 +1171,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R54
     (property 
      (VOLTAGE RVMAX)
@@ -1185,10 +1185,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R22
     (property 
      (VOLTAGE RVMAX)
@@ -1199,10 +1199,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R55
     (property 
      (VOLTAGE RVMAX)
@@ -1213,10 +1213,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value 1k)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R23
     (property 
      (VOLTAGE RVMAX)
@@ -1227,10 +1227,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0)))
    (place R24
     (property 
      (VOLTAGE RVMAX)
@@ -1241,10 +1241,10 @@
      (SLOPE RSMAX)
      ("Source Package" R)
      (Value TBD)
-     (TC1 0)
      (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX))))
+     (TC1 0)
+     (POWER RMAX)
+     (TC2 0))))
   (component "SW PUSHBUTTON"
    (place SW2
     (property 
@@ -1296,8 +1296,8 @@
   (component WP7113SECJ3
    (place D9
     (property 
-     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (MP WP7113SEC/J3)
+     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
      (OriginalSymbolOrigin "(-20000,20000)")
      ("PCB Footprint" LEDC1608X60M)
      (timestamp 000067CB)
@@ -1313,8 +1313,8 @@
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0000009B)
@@ -1322,16 +1322,33 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 0.47uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C21
+    (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" CAPC0603X33M)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
+     (timestamp 00007601)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 22uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C22
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPAE1030X1050N)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 000001B2)
@@ -1339,28 +1356,50 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 680uF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C24
     (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
-     (timestamp 00000445)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
+     (timestamp 00007649)
+     (DIST FLAT)
+     (SLOPE CSMAX)
      ("Source Package" C)
-     (Value 10uF)))
+     (Value 10uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
    (place C25
     (property 
+     (VC1 0)
+     (VC2 0)
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
-     (timestamp 0000045F)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
+     (timestamp 00007663)
+     (DIST FLAT)
+     (SLOPE CSMAX)
      ("Source Package" C)
-     (Value 22uF)))
+     (Value 22uF)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
    (place C1
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00000900)
@@ -1368,16 +1407,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C2
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00000910)
@@ -1385,16 +1424,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C3
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 00000920)
@@ -1402,16 +1441,16 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C4
     (property 
      (VC1 0)
      (VC2 0)
      (VOLTAGE CMAX)
-     (CURRENT CIMAX)
      (KNEE CBMAX)
+     (CURRENT CIMAX)
      ("PCB Footprint" CAPC0603X33M)
      (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC")
      (timestamp 0000093A)
@@ -1419,8 +1458,8 @@
      (SLOPE CSMAX)
      ("Source Package" C)
      (Value 22pF)
-     (TC1 0)
      (MAX_TEMP CTMAX)
+     (TC1 0)
      (TC2 0)))
    (place C5
     (property 
@@ -1450,12 +1489,6 @@
      (timestamp 00003A5B)
      ("Source Package" C)
      (Value 1n)))
-   (place 21
-    (property 
-     ("PCB Footprint" CAPC0603X33M)
-     (timestamp 000000C4)
-     ("Source Package" C)
-     (Value 22uF)))
    (place C12
     (property 
      ("PCB Footprint" CAPC0603X33M)
@@ -1481,14 +1514,14 @@
   (image WP7113SECJ3_0
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
-    (OriginalSymbolOrigin "(-20000,20000)")
-    (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
-    (MP WP7113SEC/J3)
-    (MF Kingbright)
-    (Package "Radial Kingbright")
-    (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                                            ")
+    ("PCB Footprint" LEDC1608X60M)
     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
-    ("PCB Footprint" LEDC1608X60M))
+    (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                                            ")
+    (Package "Radial Kingbright")
+    (MF Kingbright)
+    (MP WP7113SEC/J3)
+    (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(-20000,20000)"))
    (pin 999 A
     (property 
      (pinname A)
@@ -1514,14 +1547,14 @@
   (image R
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (DIST FLAT)
-    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
-    (VOLTAGE RVMAX)
-    (SLOPE RSMAX)
-    (MAX_TEMP RTMAX)
-    (POWER RMAX)
+    (TC2 0)
     (TC1 0)
-    (TC2 0))
+    (POWER RMAX)
+    (MAX_TEMP RTMAX)
+    (SLOPE RSMAX)
+    (VOLTAGE RVMAX)
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+    (DIST FLAT))
    (pin 999 2
     (property 
      (pinname 2)
@@ -1638,14 +1671,14 @@
   (image NPN
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\2N3700\\2N3700.OLB)
-    (OriginalSymbolOrigin "(0,30000)")
-    (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
-    (MP 2N3700)
-    (MF "Microchip Technology")
-    (Package None)
-    (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")
+    ("PCB Footprint" TO18)
     (SnapEDA_Link "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=snap")
-    ("PCB Footprint" TO18))
+    (Description "Bipolar (BJT) Transistor NPN 80 V 1 A - 500 mW Through Hole TO-18")
+    (Package None)
+    (MF "Microchip Technology")
+    (MP 2N3700)
+    (Check_prices "https://www.snapeda.com/parts/2N3700/Microchip/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(0,30000)"))
    (pin 999 1
     (property 
      (pinname E)
@@ -2292,14 +2325,14 @@
   (image D
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N4001\\1N4001.OLB)
-    (OriginalSymbolOrigin "(0,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
-    (MP 1N4001)
-    (MF "Diotec Semiconductor")
-    (Package "DO-41 Diotec")
-    (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")
+    ("PCB Footprint" "DO41-10")
     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
-    ("PCB Footprint" "DO41-10"))
+    (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")
+    (Package "DO-41 Diotec")
+    (MF "Diotec Semiconductor")
+    (MP 1N4001)
+    (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(0,10000)"))
    (pin 999 A
     (property 
      (pinname ANODE)
@@ -2350,8 +2383,8 @@
   (image 1N5824
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\1N5824\\1N5824.OLB)
-    ("PCB Footprint" DIOAD1898W129L762D1143)
-    (OriginalSymbolOrigin "(-10000,10000)"))
+    (OriginalSymbolOrigin "(-10000,10000)")
+    ("PCB Footprint" DIOAD1898W129L762D1143))
    (pin 999 A
     (property 
      (pinname A)
@@ -2377,17 +2410,17 @@
   (image C
    (property 
     (sourcelib D:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
-    (VC2 0)
-    (VC1 0)
-    (MAX_TEMP CTMAX)
-    (SLOPE CSMAX)
-    (KNEE CBMAX)
-    (CURRENT CIMAX)
-    (VOLTAGE CMAX)
-    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
-    (DIST FLAT)
+    (TC2 0)
     (TC1 0)
-    (TC2 0))
+    (DIST FLAT)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+    (VOLTAGE CMAX)
+    (CURRENT CIMAX)
+    (KNEE CBMAX)
+    (SLOPE CSMAX)
+    (MAX_TEMP CTMAX)
+    (VC1 0)
+    (VC2 0))
    (pin 999 1
     (property 
      (pinname 1)
@@ -2413,17 +2446,17 @@
   (image C_9
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
-    (VC2 0)
-    (VC1 0)
-    (MAX_TEMP CTMAX)
-    (SLOPE CSMAX)
-    (KNEE CBMAX)
-    (CURRENT CIMAX)
-    (VOLTAGE CMAX)
-    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
-    (DIST FLAT)
+    (TC2 0)
     (TC1 0)
-    (TC2 0))
+    (DIST FLAT)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2 VC1=@VC1 VC2=@VC2|")
+    (VOLTAGE CMAX)
+    (CURRENT CIMAX)
+    (KNEE CBMAX)
+    (SLOPE CSMAX)
+    (MAX_TEMP CTMAX)
+    (VC1 0)
+    (VC2 0))
    (pin 999 N
     (property 
      (pinname 2)
@@ -3301,14 +3334,14 @@
   (image D_2
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
-    (OriginalSymbolOrigin "(0,10000)")
-    (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
-    (MP 1N4001)
-    (MF "Diotec Semiconductor")
-    (Package "DO-41 Diotec")
-    (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")
+    ("PCB Footprint" DIOAD1036W78L470D235)
     (SnapEDA_Link "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=snap")
-    ("PCB Footprint" DIOAD1036W78L470D235))
+    (Description "                                                    Diode, DO-41, 50V, 1A, 175C                                            ")
+    (Package "DO-41 Diotec")
+    (MF "Diotec Semiconductor")
+    (MP 1N4001)
+    (Check_prices "https://www.snapeda.com/parts/1N4001/Diotec/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(0,10000)"))
    (pin 999 A
     (property 
      (pinname ANODE)
@@ -3384,8 +3417,8 @@
   (image POT
    (property 
     (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\BREAKOUT.OLB)
-    (PSpiceTemplate "X^@REFDES %1 %T %2 POT PARAMS: SET=@SET VALUE=@VALUE")
-    (SET 0.5))
+    (SET 0.5)
+    (PSpiceTemplate "X^@REFDES %1 %T %2 POT PARAMS: SET=@SET VALUE=@VALUE"))
    (pin 999 3
     (property 
      (pinname 2)
@@ -3534,8 +3567,8 @@
   (image 10X2MT_0
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\STM32DEVBD162.DSN)
-    ("PCB Footprint" 61202021621)
-    (OriginalSymbolOrigin "(-50000,10000)"))
+    (OriginalSymbolOrigin "(-50000,10000)")
+    ("PCB Footprint" 61202021621))
    (pin 999 1
     (property 
      (pinname 1)
@@ -3759,8 +3792,8 @@
   (image "WR-FSH"
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\696101000002\\696101000002.OLB)
-    ("PCB Footprint" 696101000002)
-    (OriginalSymbolOrigin "(-20000,10000)"))
+    (OriginalSymbolOrigin "(-20000,10000)")
+    ("PCB Footprint" 696101000002))
    (pin 999 1
     (property 
      (pinname 1)
@@ -3786,14 +3819,14 @@
   (image WP7113SECJ3
    (property 
     (sourcelib C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\STM\\ORCAD_LIBRARY_COMMERCIAL\\WP7113SEC_J3\\WP7113SECJ3.OLB)
-    (OriginalSymbolOrigin "(-20000,20000)")
-    (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
-    (MP WP7113SEC/J3)
-    (MF Kingbright)
-    (Package "Radial Kingbright")
-    (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                                            ")
+    ("PCB Footprint" LED_WP7113SECJ3)
     (SnapEDA_Link "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=snap")
-    ("PCB Footprint" LED_WP7113SECJ3))
+    (Description "                                                    Red 625nm LED Indication - Discrete 2.2V Radial                                            ")
+    (Package "Radial Kingbright")
+    (MF Kingbright)
+    (MP WP7113SEC/J3)
+    (Check_prices "https://www.snapeda.com/parts/WP7113SEC/J3/Kingbright/view-part/?ref=eda")
+    (OriginalSymbolOrigin "(-20000,20000)"))
    (pin 999 A
     (property 
      (pinname A)
@@ -4146,7 +4179,7 @@
      (Number 9)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" 3.3V)
+     ("Net Name" VCC)
      (Order 8)
      ("Is No Connect" False)))
    (pin 999 10
@@ -4311,7 +4344,7 @@
      (Number 24)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" 3.3V)
+     ("Net Name" VCC)
      (Order 23)
      ("Is No Connect" False)))
    (pin 999 25
@@ -4443,7 +4476,7 @@
      (Number 36)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" 3.3V)
+     ("Net Name" VCC)
      (Order 35)
      ("Is No Connect" False)))
    (pin 999 37
@@ -4575,7 +4608,7 @@
      (Number 48)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" 3.3V)
+     ("Net Name" VCC)
      (Order 47)
      ("Is No Connect" False))))
   (image XTR117
@@ -4673,7 +4706,7 @@
     (property 
      (nettype S))
    (pins
-     U1-3 U2-1 21-1 C22-2 U4-12 R45-2 R46-2 R47-2 U21-4))
+     U1-3 U2-1 C22-2 U4-12 R45-2 R46-2 R47-2 U21-4 C21-2))
   (net 1N4001
    (pins
      U6-1
@@ -4692,16 +4725,18 @@
     (property 
      (nettype S))
    (pins
-     U3-2 C25-1 U10-9 U10-24 U10-36 U10-48 RT1-1 TP2-1))
+     U3-2 U10-9 U10-24 U10-36 U10-48 RT1-1 U16-4 U16-8 U16-11
+     U16-15 U16-17 U16-21 U16-28 TP2-1 R33-1 R34-1 R35-1 R36-1
+     R37-1 C25-2))
   (net 5V
     (property 
      (nettype S))
    (pins
-     U2-4 L1-2 C23-P U3-3 C24-1 U11-8 U12-8 U17-3 U6-2
+     U2-4 L1-2 C23-P U3-3 U11-8 U12-8 U17-3 U6-2
     (property 
      (FLOAT Error))
      C9-P U13-8 R27-2 U9-4 U9-8 R50-1 U20-1 U21-9 Q8-3
-     Q9-3 D25-C D26-C))
+     Q9-3 D25-C D26-C C24-2))
   (net ADC1_IN1
    (pins
      R1-2 U11-1))
@@ -4805,14 +4840,14 @@
     (property 
      (nettype S))
    (pins
-     U1-2 U2-3 U2-5 C20-1 21-2 C22-1 C23-N U3-1 C24-2
-     C25-2 U10-8 U10-23 U10-35 U10-47 C1-1 C2-1 C3-1 C4-1
-     U11-2 U11-4 U12-3 R21-2 R23-1 U16-3 U16-9 U16-14 U16-16
-     U16-19 U16-23 U16-29 U16-48 U17-2 U4-1 U4-7 U4-10 U4-16
-     SW2-1 R24-1 U13-4 R25-2 R26-2 R28-1 R29-1 R30-1 R31-2
-     C5-1 C6-2 C7-1 C8-1 U9-1 C12-1 C13-1 R49-1 C14-1
-     U20-8 J5-2 U21-1 U21-8 D29-A D20-C D21-C D22-C D23-C
-     Q10-1 Q11-1 D27-A D28-A))
+     U1-2 U2-3 U2-5 C20-1 C22-1 C23-N U3-1 U10-8 U10-23
+     U10-35 U10-47 C1-1 C2-1 C3-1 C4-1 U11-2 U11-4 U12-3
+     R21-2 R23-1 U16-3 U16-9 U16-14 U16-16 U16-19 U16-23 U16-29
+     U16-48 U17-2 U4-1 U4-7 U4-10 U4-16 SW2-1 R24-1 U13-4
+     R25-2 R26-2 R28-1 R29-1 R30-1 R31-2 C5-1 C6-2 C7-1
+     C8-1 U9-1 C12-1 C13-1 R49-1 C14-1 U20-8 J5-2 U21-1
+     U21-8 D29-A D20-C D21-C D22-C D23-C Q10-1 Q11-1 D27-A
+     D28-A C21-1 C24-1 C25-1))
   (net GND_SIGNAL
     (property 
      (nettype S))
@@ -5276,11 +5311,5 @@
      (nettype P)
      (netdir 1))
    (pins
-     U10-1 J7-7))
-  (net VDD
-    (property 
-     (nettype S))
-   (pins
-     U16-4 U16-8 U16-11 U16-15 U16-17 U16-21 U16-28 R33-1 R34-1
-     R35-1 R36-1 R37-1)))
+     U10-1 J7-7)))
 )

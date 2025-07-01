@@ -1,10 +1,10 @@
 (PCB TOP_MCUPART
  (description
-  (timeStamp "2025 06 26 13 10 02")
+  (timeStamp "2025 07 01 08 26 26")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
-  (date "Thursday, June 26, 2025")
+  (date "Tuesday, July 01, 2025")
   (document "C:\\USERS\\D\\ADVANCED_CIRCUIT\\MCU\\ATMEGA\\TOP_MCUPART.DSN")
   (revision "")
   (organization "")
@@ -1136,20 +1136,6 @@
      ("PCB Footprint" RESC1608X50AL)
      (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
      (timestamp 000217C1)
-     (DIST FLAT)
-     (SLOPE RSMAX)
-     ("Source Package" R)
-     (Value 1k)
-     (TC1 0)
-     (MAX_TEMP RTMAX)
-     (TC2 0)
-     (POWER RMAX)))
-   (place R117
-    (property 
-     (VOLTAGE RVMAX)
-     ("PCB Footprint" RESC1608X50AL)
-     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@")
-     (timestamp 00026929)
      (DIST FLAT)
      (SLOPE RSMAX)
      ("Source Package" R)
@@ -2773,7 +2759,7 @@
      (Number 2)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79968)
+     ("Net Name" N791281)
      (Order 1)
      ("Is No Connect" False)))
    (pin 999 3
@@ -2784,7 +2770,7 @@
      (Number 3)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79972)
+     ("Net Name" N791282)
      (Order 2)
      ("Is No Connect" False)))
    (pin 999 4
@@ -2795,7 +2781,7 @@
      (Number 4)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79976)
+     ("Net Name" N791283)
      (Order 3)
      ("Is No Connect" False)))
    (pin 999 5
@@ -2839,7 +2825,7 @@
      (Number 8)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N129804)
+     ("Net Name" N791287)
      (Order 7)
      ("Is No Connect" False)))
    (pin 999 9
@@ -2850,7 +2836,7 @@
      (Number 9)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N129808)
+     ("Net Name" N791288)
      (Order 8)
      ("Is No Connect" False)))
    (pin 999 10
@@ -2861,7 +2847,7 @@
      (Number 10)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79980)
+     ("Net Name" N791289)
      (Order 9)
      ("Is No Connect" False)))
    (pin 999 11
@@ -2872,7 +2858,7 @@
      (Number 11)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79984)
+     ("Net Name" N7912810)
      (Order 10)
      ("Is No Connect" False)))
    (pin 999 12
@@ -2883,7 +2869,7 @@
      (Number 12)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79988)
+     ("Net Name" N7912811)
      (Order 11)
      ("Is No Connect" False)))
    (pin 999 13
@@ -2894,7 +2880,7 @@
      (Number 13)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N79992)
+     ("Net Name" N7912812)
      (Order 12)
      ("Is No Connect" False)))
    (pin 999 14
@@ -2905,7 +2891,7 @@
      (Number 14)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N116348)
+     ("Net Name" N7912813)
      (Order 13)
      ("Is No Connect" False)))
    (pin 999 15
@@ -3048,7 +3034,7 @@
      (Number 27)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N80076)
+     ("Net Name" N7912826)
      (Order 26)
      ("Is No Connect" False)))
    (pin 999 28
@@ -3059,7 +3045,7 @@
      (Number 28)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N80080)
+     ("Net Name" N7912827)
      (Order 27)
      ("Is No Connect" False)))
    (pin 999 29
@@ -3103,7 +3089,7 @@
      (Number 32)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N94654)
+     ("Net Name" N7912831)
      (Order 31)
      ("Is No Connect" False)))
    (pin 999 33
@@ -5592,21 +5578,12 @@
   (net N116344
    (pins
      U1-7 R24-1))
-  (net N116348
-   (pins
-     U1-14 R26-1))
   (net N116352
    (pins
      U1-17 R25-1))
   (net N116356
    (pins
      U1-16 R86-1))
-  (net N129804
-   (pins
-     U1-8 R107-1))
-  (net N129808
-   (pins
-     U1-9 R108-1))
   (net N130176
    (pins
      J26-1 R110-1))
@@ -5649,9 +5626,6 @@
   (net N137219
    (pins
      R115-2 K1-A2))
-  (net N158008
-   (pins
-     J26-5 R117-1))
   (net N66699
    (pins
      R43-2 U14-13))
@@ -5823,9 +5797,48 @@
   (net N76791
    (pins
      Q2-2 R76-1))
+  (net N791281
+   (pins
+     U1-2 R83-2))
+  (net N7912810
+   (pins
+     U1-11 R79-2))
+  (net N7912811
+   (pins
+     U1-12 R78-2))
+  (net N7912812
+   (pins
+     U1-13 R77-2))
+  (net N7912813
+   (pins
+     U1-14 R26-1))
+  (net N791282
+   (pins
+     U1-3 R82-2))
+  (net N7912826
+   (pins
+     R84-2 U1-27))
+  (net N7912827
+   (pins
+     U1-28 R85-2))
+  (net N791283
+   (pins
+     R81-2 U1-4))
+  (net N7912831
+   (pins
+     U1-32 R94-2))
   (net N7912857
    (pins
      U1-58 R109-1))
+  (net N791287
+   (pins
+     U1-8 R107-1))
+  (net N791288
+   (pins
+     U1-9 R108-1))
+  (net N791289
+   (pins
+     U1-10 R80-2))
   (net N79136
    (pins
      SW1-2 U1-20 R27-1))
@@ -5882,33 +5895,6 @@
   (net N79920
    (pins
      C2-2 U1-24 Y1-1))
-  (net N79968
-   (pins
-     U1-2 R83-2))
-  (net N79972
-   (pins
-     U1-3 R82-2))
-  (net N79976
-   (pins
-     R81-2 U1-4))
-  (net N79980
-   (pins
-     U1-10 R80-2))
-  (net N79984
-   (pins
-     U1-11 R79-2))
-  (net N79988
-   (pins
-     U1-12 R78-2))
-  (net N79992
-   (pins
-     U1-13 R77-2))
-  (net N80076
-   (pins
-     R84-2 U1-27))
-  (net N80080
-   (pins
-     U1-28 R85-2))
   (net N80384
    (pins
      U1-25 U2-6))
@@ -5987,9 +5973,6 @@
   (net N94081
    (pins
      U1-33 R93-1))
-  (net N94654
-   (pins
-     U1-32 R94-2))
   (net N95686
    (pins
      U1-1 SW2-2 R95-1))
@@ -6147,5 +6130,5 @@
      (nettype P)
      (netdir 2))
    (pins
-     R117-2 D35-2 D36-1)))
+     D35-2 D36-1)))
 )
