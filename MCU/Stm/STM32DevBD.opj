@@ -174,7 +174,8 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Select "Design Resources"))
+      (Select "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "POWER" "SMPS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -235,7 +236,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 182 1847 182 642")
-        (Scroll "0 170")
+        (Scroll "0 255")
         (Zoom "174")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
@@ -244,8 +245,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1873 208 668")
-        (Scroll "-323 0")
+        (Placement "44 2 3 -1 -1 -8 -31 208 1873 208 668")
+        (Scroll "-435 74")
         (Zoom "100")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")

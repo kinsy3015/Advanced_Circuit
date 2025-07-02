@@ -1,9 +1,21 @@
 *PADS-ECO-V9.4-MILS*
 *REMARK*  old file: D:\PADS Projects\ecogtmp0.asc
 *REMARK*  new file: D:\PADS Projects\ecogtmp1.asc
-*REMARK*  created by ECOGEN (Version 6.4v) on 2025-07-02 오후 8:15:17
-*JOINNET*
-GND_SIGNAL  12V
+*REMARK*  created by ECOGEN (Version 6.4v) on 2025-07-02 오후 10:27:12
+*DELPIN*
+C10.N  12V
+C11.N  12V
+C15.N  12V
+C9.N  12V
+D31.C  12V
+D33.C  12V
+U8.3  12V
+TP1.1  12V
+U6.3  12V
+*NET*
+*SIGNAL*  GND
+TP1.1  U8.3  U6.3  D33.C  D31.C  C11.N  C10.N
+C9.N  C15.N
 
-*REMARK*  Deleted pins: 0,  Added pins: 0
+*REMARK*  Deleted pins: 9,  Added pins: 9
 *END*
