@@ -2,10 +2,12 @@
 
 # ATMega Top Design
 ![3](https://github.com/user-attachments/assets/7bb5fcde-8b2e-47b3-9ba3-ce3ff0a74bfb)
+![1](https://github.com/user-attachments/assets/46b6638c-48f4-45de-bd96-26e38cee52b6)
 
 
 # STM Top Design
 ![2](https://github.com/user-attachments/assets/55b00f10-9ada-4752-b290-498a7b118b65)
+![2](https://github.com/user-attachments/assets/576bf212-6eb0-40ba-8efd-63c15ec40c54)
 
 
 # IR Data to ADC
