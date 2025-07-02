@@ -173,14 +173,12 @@
          "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "STM32G491")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "PSpice Resources")
-      (Select "Design Resources"
-         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "POWER" "SMPS"))
+      (Path "PSpice Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 393"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 393"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -245,8 +243,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 208 1873 208 668")
-        (Scroll "-435 74")
+        (Placement "44 0 1 -1 -1 -8 -31 208 1873 208 668")
+        (Scroll "-323 0")
         (Zoom "100")
         (Occurrence "/PWR"))
       (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
