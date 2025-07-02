@@ -6,7 +6,7 @@
       (File ".\devbd.olb"
         (Type "Schematic Library")))
     (NoModify)
-    (File "..\atmega\top_mcupart162.dsn"
+    (File ".\stm32devbd.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
@@ -41,6 +41,8 @@
     (File ".\stm32devbd.bom"
       (Type "Report"))
     (File ".\stm32devbd.asc"
+      (Type "Report"))
+    (File "..\atmega\stm32devbd.asc"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -52,6 +54,9 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (GND_SIGNAL
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (D
       (FullPartName "D.Normal")
       (LibraryName
@@ -152,28 +157,100 @@
     ("CONN TRBLK 2"
       (FullPartName "CONN TRBLK 2.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("CON MC10"
-      (FullPartName "CON MC10.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "..\atmega\top_mcupart162.dsn")
-      (Path "Design Resources" "..\atmega\top_mcupart162.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "..\atmega\top_mcupart162.dsn" "POWER")
-      (Path "Design Resources" "..\atmega\top_mcupart162.dsn" "stm32f303c8")
-      (Path "Design Resources" "..\atmega\top_mcupart162.dsn" "STM32G491")
+      (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn")
+      (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "POWER")
+      (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "stm32f303c8")
+      (Path "Design Resources"
+         "C:\Users\D\Advanced_Circuit\MCU\Stm\stm32devbd.dsn" "STM32G491")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "PSpice Resources"))
+      (Path "PSpice Resources")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 393"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 393"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1717 52 512")
+        (Scroll "-323 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TOP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1743 78 538")
+        (Scroll "-323 0")
+        (Zoom "100")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "stm32f303c8")
+      (Page "Analog"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1769 104 564")
+        (Scroll "-323 0")
+        (Zoom "100")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "stm32f303c8")
+      (Page "COM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1795 130 590")
+        (Scroll "-323 0")
+        (Zoom "100")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "stm32f303c8")
+      (Page "PWM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1821 156 616")
+        (Scroll "-323 0")
+        (Zoom "100")
+        (Occurrence "/MCU4"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "stm32f303c8")
+      (Page "stm32f303c8"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1847 182 642")
+        (Scroll "0 170")
+        (Zoom "174")
+        (Occurrence "/PWR"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "POWER")
+      (Page "PWR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1873 208 668")
+        (Scroll "-323 0")
+        (Zoom "100")
+        (Occurrence "/PWR"))
+      (Path "C:\USERS\D\ADVANCED_CIRCUIT\MCU\STM\STM32DEVBD.DSN")
+      (Schematic "POWER")
+      (Page "SMPS")))
   (MPSSessionName "D")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\D\Advanced_Circuit\MCU\Stm\Orcad_Library_Commercial\2N3700")
